@@ -1,0 +1,133 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/theme.json",
+    "version": 2,
+    "settings": {
+        "appearanceTools": true,
+        "typography": {
+            "fontFamilies": [
+                {
+                    "fontFamily": "Suisse Intl, Arial",
+                    "fontFace": [
+                        {
+                            "fontFamily": "Suisse Intl",
+                            "fontWeight": "400",
+                            "fontStyle": "normal",
+                            "src": [
+                                "https://www.epfl.ch/fonts/SuisseIntl-Regular-WebS.woff2"
+                            ]
+                        }, 
+                        {
+                            "fontFamily": "Suisse Intl",
+                            "fontWeight": "400",
+                            "fontStyle": "italic",
+                            "src": [
+                                "https://www.epfl.ch/fonts/SuisseIntl-RegularItalic-WebS.woff2"
+                            ]
+                        }, 
+                        {
+                            "fontFamily": "Suisse Intl",
+                            "fontWeight": "700",
+                            "fontStyle": "normal",
+                            "src": [
+                                "https://www.epfl.ch/fonts/SuisseIntl-SemiBold-WebS.woff2"
+                            ]
+                        }, 
+                        {
+                            "fontFamily": "Suisse Intl",
+                            "fontWeight": "700",
+                            "fontStyle": "italic",
+                            "src": [
+                                "https://www.epfl.ch/fonts/SuisseIntl-SemiBoldItalic-WebS.woff2"
+                            ]
+                        }
+                    ],
+                    "slug": "System-fonts", 
+                    "name": "System fonts"
+                }
+            ]
+        },
+        "color": {
+            "defaultPalette": false,
+            "custom": true,
+            "palette": [
+                {
+                    "color": "#FF0000",
+                    "name": "Primary", 
+                    "slug": "Primary"
+                },
+                {
+                    "color": "#FCFCFD",
+                    "name": "Grey 25", 
+                    "slug": "Grey_25"
+                },
+                {
+                    "color": "#E7E7E9",
+                    "name": "Grey 50", 
+                    "slug": "Grey_50"
+                },
+                {
+                    "color": "#D1D3D5",
+                    "name": "Grey 100", 
+                    "slug": "Grey_100"
+                },
+                {
+                    "color": "#BCBEC1",
+                    "name": "Grey 200", 
+                    "slug": "Grey_200"
+                },
+                {
+                    "color": "#A6A9AD",
+                    "name": "Grey 300", 
+                    "slug": "Grey_300"
+                },
+                {
+                    "color": "#91959A",
+                    "name": "Grey 400", 
+                    "slug": "Grey_400"
+                },
+                {
+                    "color": "#7C8086",
+                    "name": "Grey 500", 
+                    "slug": "Grey_500"
+                },
+                {
+                    "color": "666B72",
+                    "name": "Grey 600", 
+                    "slug": "Grey_600"
+                },
+                {
+                    "color": "#51565E",
+                    "name": "Grey 700", 
+                    "slug": "Grey_700"
+                },
+                {
+                    "color": "#3B424A",
+                    "name": "Grey 800", 
+                    "slug": "Grey_800"
+                },
+                {
+                    "color": "#262D36",
+                    "name": "Grey 900", 
+                    "slug": "Grey_900"
+                },
+                {
+                    "color": "#ffffff",
+                    "name": "White", 
+                    "slug": "White"
+                },
+                {
+                    "color": "#000000",
+                    "name": "Black", 
+                    "slug": "Black"
+                }
+            ]
+        }
+    },
+    "styles": {
+        "typography": {
+            "fontFamily": "Suisse Intl, Arial",
+            "fontStyle": "normal",
+            "fontWeight": "500"
+        }
+    }
+}

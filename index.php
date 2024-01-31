@@ -1,1 +1,1 @@
-<?php // silence for now ?>
+<?php // silence for now

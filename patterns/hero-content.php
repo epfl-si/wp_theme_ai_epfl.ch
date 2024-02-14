@@ -1,7 +1,7 @@
 <?php
 /**
- * Title: CardDeck
- * Slug: theme_test/cardDeck
+ * Title: HeroContent
+ * Slug: theme_test/heroContent
  * Categories: featured
  */
 ?>

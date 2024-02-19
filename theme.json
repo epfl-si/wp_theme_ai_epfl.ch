@@ -124,10 +124,26 @@
         }
     },
     "styles": {
-        "typography": {
-            "fontFamily": "Suisse Intl, Arial",
-            "fontStyle": "normal",
-            "fontWeight": "500"
+      "typography": {
+        "fontFamily": "Suisse Intl, Arial",
+        "fontStyle": "normal",
+        "fontWeight": "500"
+      },
+      "elements": {
+        "button": {
+          "border": {
+            "radius": "8px"
+          },
+          "color": {
+            "text": "#ffffff",
+            "background": "#FF0000"
+          },
+          ":hover": {
+            "color": {
+              "background": "#D00000"
+            }
+          }
         }
+      }
     }
 }

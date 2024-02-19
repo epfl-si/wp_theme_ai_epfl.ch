@@ -2,7 +2,7 @@
 /**
  * Title: Header
  * Slug: theme_test/header
- * Categories: featured
+ * Categories: ai-center
  */
 ?>
 <!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40"},"margin":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30"}}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"center"}} -->

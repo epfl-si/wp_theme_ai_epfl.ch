@@ -2,7 +2,7 @@
 /**
  * Title: PersonFounder
  * Slug: theme_test/personFounder
- * Categories: featured
+ * Categories: ai-center
  */
 ?>
 <!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap"}} -->

@@ -2,7 +2,7 @@
 /**
  * Title: Share
  * Slug: theme_test/share
- * Categories: featured
+ * Categories: ai-center
  */
 ?>
 <!-- wp:group {"layout":{"type":"flex","orientation":"vertical"}} -->

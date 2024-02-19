@@ -2,7 +2,7 @@
 /**
  * Title: PublishedDate
  * Slug: theme_test/publishedDate
- * Categories: featured
+ * Categories: ai-center
  */
 ?>
 <!-- wp:group {"layout":{"type":"flex","orientation":"vertical"}} -->

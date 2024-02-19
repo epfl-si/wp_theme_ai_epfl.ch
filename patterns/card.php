@@ -2,7 +2,7 @@
 /**
  * Title: Card
  * Slug: theme_test/card
- * Categories: featured
+ * Categories: ai-center
  */
 ?>
 <!-- wp:group {"layout":{"type":"flex","orientation":"vertical"}} -->

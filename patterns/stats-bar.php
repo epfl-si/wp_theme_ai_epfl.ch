@@ -2,7 +2,7 @@
 /**
  * Title: StatsBar
  * Slug: theme_test/statsBar
- * Categories: featured
+ * Categories: featuai-centerred
  */
 ?>
 <!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap"}} -->

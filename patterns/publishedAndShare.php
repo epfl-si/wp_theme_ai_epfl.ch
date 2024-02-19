@@ -2,7 +2,7 @@
 /**
  * Title: PublishedAndShare
  * Slug: theme_test/publishedAndShare
- * Categories: featured
+ * Categories: ai-center
  */
 ?>
 <!-- wp:group {"layout":{"type":"flex","orientation":"vertical"}} -->

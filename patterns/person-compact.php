@@ -2,7 +2,7 @@
 /**
  * Title: PersonCompact
  * Slug: theme_test/personCompact
- * Categories: featured
+ * Categories: ai-center
  */
 ?>
 <!-- wp:group {"layout":{"type":"flex","orientation":"vertical"}} -->

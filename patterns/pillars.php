@@ -2,7 +2,7 @@
 /**
  * Title: Pillars
  * Slug: theme_test/pillars
- * Categories: featured
+ * Categories: ai-center
  */
 ?>
 <!-- wp:group {"layout":{"type":"flex","orientation":"vertical"}} -->

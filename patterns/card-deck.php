@@ -2,7 +2,7 @@
 /**
  * Title: CardDeck
  * Slug: theme_test/cardDeck
- * Categories: featured
+ * Categories: ai-center
  */
 ?>
 <!-- wp:group {"layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch"}} -->

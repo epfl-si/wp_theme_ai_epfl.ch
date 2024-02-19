@@ -2,7 +2,7 @@
 /**
  * Title: NewsContent
  * Slug: theme_test/newsContent
- * Categories: featured
+ * Categories: ai-center
  */
 ?>
 <!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap"}} -->

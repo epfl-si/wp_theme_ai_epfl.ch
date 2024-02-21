@@ -5,8 +5,8 @@
  * Categories: featured, theme_test/ai-center
  */
 ?>
-<!-- wp:group {"layout":{"type":"flex","orientation":"vertical"}} -->
-<div class="wp-block-group">
+<!-- wp:group {"style":{"layout":{"selfStretch":"fixed","flexSize":"25%"}},"layout":{"type":"flex","orientation":"vertical"}} -->
+<div class="wp-block-group col-3">
     <!-- wp:heading --><h2 class="wp-block-heading">Research Topics</h2><!-- /wp:heading -->
 
     <!-- wp:list -->

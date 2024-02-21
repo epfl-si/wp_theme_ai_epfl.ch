@@ -2,7 +2,7 @@
 /**
  * Title: ResearchTopics
  * Slug: theme_test/researchTopics
- * Categories: ai-center
+ * Categories: featured, theme_test/ai-center
  */
 ?>
 <!-- wp:group {"layout":{"type":"flex","orientation":"vertical"}} -->

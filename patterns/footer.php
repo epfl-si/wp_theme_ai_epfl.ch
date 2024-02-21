@@ -2,7 +2,7 @@
 /**
  * Title: Footer
  * Slug: theme_test/footer
- * Categories: ai-center
+ * Categories: footer, theme_test/ai-center
  */
 ?>
 <!-- wp:group {"style":{"spacing":{"padding":{"top":"2rem","right":"2rem","bottom":"2rem","left":"2rem"}}}} -->

@@ -1,8 +1,8 @@
 <?php
 /**
  * Title: NewItemLg
- * Slug: theme_test/newItemLg
- * Categories: featured, theme_test/ai-center
+ * Slug: theme_ai_center/newItemLg
+ * Categories: featured, theme_ai_center/ai-center
  */
 ?>
 <!-- wp:group {"layout":{"type":"flex","orientation":"vertical"}} -->

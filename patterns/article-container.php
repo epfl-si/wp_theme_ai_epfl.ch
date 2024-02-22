@@ -1,8 +1,8 @@
 <?php
 /**
  * Title: ArticleContainer
- * Slug: theme_test/articleContainer
- * Categories: featured, theme_test/ai-center
+ * Slug: theme_ai_center/articleContainer
+ * Categories: featured, theme_ai_center/ai-center
  */
 ?>
 <!-- wp:paragraph -->

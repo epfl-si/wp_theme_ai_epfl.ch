@@ -1,8 +1,8 @@
 <?php
 /**
  * Title: Header
- * Slug: theme_test/header
- * Categories: header, theme_test/ai-center
+ * Slug: theme_ai_center/header
+ * Categories: header, theme_ai_center/ai-center
  */
 ?>
 <!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40"},"margin":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30"}}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"center"}} -->

@@ -1,8 +1,8 @@
 <?php
 /**
  * Title: PersonFounder
- * Slug: theme_test/personFounder
- * Categories: featured, theme_test/ai-center
+ * Slug: theme_ai_center/personFounder
+ * Categories: featured, theme_ai_center/ai-center
  */
 ?>
 <!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap"}} -->

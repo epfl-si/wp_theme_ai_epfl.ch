@@ -1,8 +1,8 @@
 <?php
 /**
  * Title: CardDeck
- * Slug: theme_test/cardDeck
- * Categories: featured, theme_test/ai-center
+ * Slug: theme_ai_center/cardDeck
+ * Categories: featured, theme_ai_center/ai-center
  */
 ?>
 <!-- wp:group {"layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch"}} -->

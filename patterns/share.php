@@ -1,8 +1,8 @@
 <?php
 /**
  * Title: Share
- * Slug: theme_test/share
- * Categories: featured, theme_test/ai-center
+ * Slug: theme_ai_center/share
+ * Categories: featured, theme_ai_center/ai-center
  */
 ?>
 <!-- wp:group {"layout":{"type":"flex","orientation":"vertical"}} -->

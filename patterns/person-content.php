@@ -1,8 +1,8 @@
 <?php
 /**
  * Title: PersonContent
- * Slug: theme_test/personContent
- * Categories: featured, theme_test/ai-center
+ * Slug: theme_ai_center/personContent
+ * Categories: featured, theme_ai_center/ai-center
  */
 ?>
 <!-- wp:group {"layout":{"type":"flex","orientation":"vertical"}} -->

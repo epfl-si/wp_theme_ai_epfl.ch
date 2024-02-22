@@ -1,8 +1,8 @@
 <?php
 /**
  * Title: StatsBar
- * Slug: theme_test/statsBar
- * Categories: featured, theme_test/ai-center
+ * Slug: theme_ai_center/statsBar
+ * Categories: featured, theme_ai_center/ai-center
  */
 ?>
 <!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap"}} -->

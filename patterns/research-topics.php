@@ -1,8 +1,8 @@
 <?php
 /**
  * Title: ResearchTopics
- * Slug: theme_test/researchTopics
- * Categories: featured, theme_test/ai-center
+ * Slug: theme_ai_center/researchTopics
+ * Categories: featured, theme_ai_center/ai-center
  */
 ?>
 <!-- wp:group {"style":{"layout":{"selfStretch":"fixed","flexSize":"25%"}},"layout":{"type":"flex","orientation":"vertical"}} -->

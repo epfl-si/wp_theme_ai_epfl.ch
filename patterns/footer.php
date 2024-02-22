@@ -1,8 +1,8 @@
 <?php
 /**
  * Title: Footer
- * Slug: theme_test/footer
- * Categories: footer, theme_test/ai-center
+ * Slug: theme_ai_center/footer
+ * Categories: footer, theme_ai_center/ai-center
  */
 ?>
 <!-- wp:group {"style":{"spacing":{"padding":{"top":"2rem","right":"2rem","bottom":"2rem","left":"2rem"}}}} -->

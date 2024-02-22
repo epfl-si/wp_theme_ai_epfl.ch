@@ -1,8 +1,8 @@
 <?php
 /**
  * Title: PublishedAndShare
- * Slug: theme_test/publishedAndShare
- * Categories: featured, theme_test/ai-center
+ * Slug: theme_ai_center/publishedAndShare
+ * Categories: featured, theme_ai_center/ai-center
  */
 ?>
 <!-- wp:group {"style":{"layout":{"selfStretch":"fixed","flexSize":"25%"}},"layout":{"type":"constrained"}, "tagName": "aside"} -->

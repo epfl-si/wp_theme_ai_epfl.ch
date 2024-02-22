@@ -1,8 +1,8 @@
 <?php
 /**
  * Title: PersonCompact
- * Slug: theme_test/personCompact
- * Categories: featured, theme_test/ai-center
+ * Slug: theme_ai_center/personCompact
+ * Categories: featured, theme_ai_center/ai-center
  */
 ?>
 <!-- wp:group {"layout":{"type":"flex","orientation":"vertical"}} -->

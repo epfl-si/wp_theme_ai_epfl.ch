@@ -1,8 +1,8 @@
 <?php
 /**
  * Title: Pillars
- * Slug: theme_test/pillars
- * Categories: featured, theme_test/ai-center
+ * Slug: theme_ai_center/pillars
+ * Categories: featured, theme_ai_center/ai-center
  */
 ?>
 <!-- wp:group {"layout":{"type":"flex","orientation":"vertical"}} -->

@@ -1,8 +1,8 @@
 <?php
 /**
  * Title: ArticleContent
- * Slug: theme_test/articleContent
- * Categories: featured, theme_test/ai-center
+ * Slug: theme_ai_center/articleContent
+ * Categories: featured, theme_ai_center/ai-center
  */
 ?>
 <!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap"}} -->

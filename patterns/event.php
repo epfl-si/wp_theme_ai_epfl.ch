@@ -1,8 +1,8 @@
 <?php
 /**
  * Title: Event
- * Slug: theme_test/event
- * Categories: featured, theme_test/ai-center
+ * Slug: theme_ai_center/event
+ * Categories: featured, theme_ai_center/ai-center
  */
 ?>
 <!-- wp:group {"layout":{"type":"flex","orientation":"vertical"}} -->

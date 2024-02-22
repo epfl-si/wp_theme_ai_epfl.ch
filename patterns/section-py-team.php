@@ -25,7 +25,7 @@
     <p>Position</p>
     <!-- /wp:paragraph -->
     
-    <!-- wp:template-part {"slug":"person-contact","theme":"theme_test","area":"uncategorized"} /--></div>
+    <!-- wp:template-part {"slug":"person-contact","theme":"theme_ai_center","area":"uncategorized"} /--></div>
     <!-- /wp:group --></div>
     <!-- /wp:group -->
     
@@ -43,7 +43,7 @@
     <p>Position</p>
     <!-- /wp:paragraph -->
     
-    <!-- wp:template-part {"slug":"person-contact","theme":"theme_test","area":"uncategorized"} /--></div>
+    <!-- wp:template-part {"slug":"person-contact","theme":"theme_ai_center","area":"uncategorized"} /--></div>
     <!-- /wp:group --></div>
     <!-- /wp:group --></div>
     <!-- /wp:group -->
@@ -63,7 +63,7 @@
     <p>Position</p>
     <!-- /wp:paragraph -->
     
-    <!-- wp:template-part {"slug":"person-contact","theme":"theme_test","area":"uncategorized"} /--></div>
+    <!-- wp:template-part {"slug":"person-contact","theme":"theme_ai_center","area":"uncategorized"} /--></div>
     <!-- /wp:group --></div>
     <!-- /wp:group -->
     
@@ -81,7 +81,7 @@
     <p>Position</p>
     <!-- /wp:paragraph -->
     
-    <!-- wp:template-part {"slug":"person-contact","theme":"theme_test","area":"uncategorized"} /--></div>
+    <!-- wp:template-part {"slug":"person-contact","theme":"theme_ai_center","area":"uncategorized"} /--></div>
     <!-- /wp:group --></div>
     <!-- /wp:group --></div>
     <!-- /wp:group --></div>

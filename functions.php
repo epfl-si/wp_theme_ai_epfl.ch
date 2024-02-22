@@ -11,6 +11,6 @@ add_action( 'init', 'theme_ai_center_register_pattern_categories' );
 function theme_ai_center_register_pattern_categories() {
 	register_block_pattern_category( 'theme_ai_center/ai-center', array( 
 		'label'       => __( 'AI-Center', 'theme_ai_center' ),
-		'description' => __( 'Custom patterns for theme test.', 'theme_test' )
+		'description' => __( 'Custom patterns for theme test.', 'theme_ai_center' )
 	) );
 }

@@ -2,7 +2,7 @@
 /**
  * Title: CardInterestedIn
  * Slug: theme_test/cardInterestedIn
- * Categories: ai-center
+ * Categories: featured, theme_test/ai-center
  */
 ?>
 <!-- wp:group {"layout":{"type":"flex","orientation":"vertical"}} -->

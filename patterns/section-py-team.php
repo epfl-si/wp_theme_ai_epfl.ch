@@ -2,7 +2,7 @@
 /**
  * Title: SectionPyTeam
  * Slug: theme_test/sectionPyTeam
- * Categories: ai-center
+ * Categories: featured, theme_test/ai-center
  */
 ?>
 <!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap"}} -->

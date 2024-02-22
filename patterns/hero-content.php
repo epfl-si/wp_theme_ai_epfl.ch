@@ -2,7 +2,7 @@
 /**
  * Title: HeroContent
  * Slug: theme_test/heroContent
- * Categories: ai-center
+ * Categories: featured, theme_test/ai-center
  */
 ?>
 <!-- wp:cover {"url":"http://localhost:8088/wp-content/uploads/2024/01/hero-home-1024x512.jpg","id":17,"dimRatio":50,"style":{"color":{}}} -->

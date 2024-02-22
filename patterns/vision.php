@@ -2,7 +2,7 @@
 /**
  * Title: Vision
  * Slug: theme_test/vision
- * Categories: ai-center
+ * Categories: featured, theme_test/ai-center
  */
 ?>
 <!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap"}} -->

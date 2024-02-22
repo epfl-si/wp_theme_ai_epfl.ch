@@ -2,7 +2,7 @@
 /**
  * Title: ArticleContent
  * Slug: theme_test/articleContent
- * Categories: ai-center
+ * Categories: featured, theme_test/ai-center
  */
 ?>
 <!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap"}} -->

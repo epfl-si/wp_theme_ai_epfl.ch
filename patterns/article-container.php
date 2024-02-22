@@ -2,7 +2,7 @@
 /**
  * Title: ArticleContainer
  * Slug: theme_test/articleContainer
- * Categories: ai-center
+ * Categories: featured, theme_test/ai-center
  */
 ?>
 <!-- wp:paragraph -->

@@ -2,7 +2,7 @@
 /**
  * Title: Mission
  * Slug: theme_test/mission
- * Categories: ai-center
+ * Categories: featured, theme_test/ai-center
  */
 ?>
 <!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap"}} -->

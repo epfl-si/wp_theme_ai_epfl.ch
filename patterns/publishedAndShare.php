@@ -2,7 +2,7 @@
 /**
  * Title: PublishedAndShare
  * Slug: theme_test/publishedAndShare
- * Categories: ai-center
+ * Categories: featured, theme_test/ai-center
  */
 ?>
 <!-- wp:group {"style":{"layout":{"selfStretch":"fixed","flexSize":"25%"}},"layout":{"type":"constrained"}, "tagName": "aside"} -->

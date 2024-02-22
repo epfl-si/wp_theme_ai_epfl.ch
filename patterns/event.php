@@ -2,7 +2,7 @@
 /**
  * Title: Event
  * Slug: theme_test/event
- * Categories: ai-center
+ * Categories: featured, theme_test/ai-center
  */
 ?>
 <!-- wp:group {"layout":{"type":"flex","orientation":"vertical"}} -->

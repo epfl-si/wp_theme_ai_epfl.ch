@@ -6,11 +6,13 @@
  */
 ?>
 <!-- wp:group {"style":{"layout":{"selfStretch":"fixed","flexSize":"25%"}},"layout":{"type":"flex","orientation":"vertical"}} -->
-<div class="wp-block-group col-3">
-    <!-- wp:heading --><h2 class="wp-block-heading">Research Topics</h2><!-- /wp:heading -->
+<div class="wp-block-group col-3 sub-container-sm">
+    <!-- wp:heading {"level":6} -->
+    <h6 class="wp-block-heading h6">Research Topics</h6>
+    <!-- /wp:heading -->
 
     <!-- wp:list -->
-    <ul>
+    <ul class="divider-list">
         <!-- wp:list-item -->
         <li>Mathematical and Statistical Foundations of Machine Learning</li>
         <!-- /wp:list-item -->

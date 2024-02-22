@@ -34,17 +34,19 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:list -->
-<ul><!-- wp:list-item -->
-<li>our expertise covers new fundamentals in algorithm and model design for machine learning</li>
-<!-- /wp:list-item -->
+<ul>
+    <!-- wp:list-item -->
+    <li>our expertise covers new fundamentals in algorithm and model design for machine learning</li>
+    <!-- /wp:list-item -->
 
-<!-- wp:list-item -->
-<li>our expertise covers new fundamentals in algorithm and model design for machine learning</li>
-<!-- /wp:list-item -->
+    <!-- wp:list-item -->
+    <li>our expertise covers new fundamentals in algorithm and model design for machine learning</li>
+    <!-- /wp:list-item -->
 
-<!-- wp:list-item -->
-<li>our expertise covers new fundamentals in algorithm and model design for machine learning</li>
-<!-- /wp:list-item --></ul>
+    <!-- wp:list-item -->
+    <li>our expertise covers new fundamentals in algorithm and model design for machine learning</li>
+    <!-- /wp:list-item -->
+</ul>
 <!-- /wp:list -->
 
 <!-- wp:heading -->
@@ -56,9 +58,12 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:quote -->
-<blockquote class="wp-block-quote"><!-- wp:paragraph -->
-<p>The mission is especially exciting for me and my collaborators since it brings together many areas of our research interests, like dark matter and galaxy evolution, but also image processing and numerical simulations.</p>
-<!-- /wp:paragraph --><cite>Name, position, organisation</cite></blockquote>
+<blockquote class="wp-block-quote">
+    <!-- wp:paragraph -->
+    <p>The mission is especially exciting for me and my collaborators since it brings together many areas of our research interests, like dark matter and galaxy evolution, but also image processing and numerical simulations.</p>
+    <!-- /wp:paragraph -->
+    <cite>Name, position, organisation</cite>
+</blockquote>
 <!-- /wp:quote -->
 
 <!-- wp:paragraph -->

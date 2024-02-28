@@ -14,3 +14,9 @@ function theme_ai_center_register_pattern_categories() {
 		'description' => __( 'Custom patterns for theme test.', 'theme_ai_center' )
 	) );
 }
+
+/*  DISABLE GUTENBERG STYLE IN HEADER| WordPress 5.9 */
+function theme_ai_center_deregister_styles() {
+    wp_dequeue_style( 'global-styles' );
+}
+add_action( 'wp_enqueue_scripts', 'theme_ai_center_deregister_styles', 100 );

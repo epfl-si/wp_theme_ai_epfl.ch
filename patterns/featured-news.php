@@ -9,30 +9,30 @@
 <?php
 function render_news_item_lg ($title, $image_url, $paragraph_html, $read_more_html) {
     ?>
-                <!-- wp:group -->
+
                 <div class="wp-block-group col-sm-12 col-6">
                 <a class="wp-block-group news-item-lg">
-                    <!-- wp:image -->
-                    <figure class="wp-block-image"><img src="<?php echo($image_url); ?>" alt="" class="wp-image-21"/></figure>
-                    <!-- /wp:image -->
-                    
-                    <!-- wp:heading {"level":3} -->
-                    <h3><?php echo($title); ?></h3>
-                    <!-- /wp:heading -->
-                    
-                    <!-- wp:paragraph -->
-                    <?php echo($paragraph_html); ?>
-                    <!-- /wp:paragraph -->
 
-                    <!-- wp:group {"layout":{"type":"flex"}} -->
+                    <figure class="wp-block-image"><img src="<?php echo($image_url); ?>" alt="" class="wp-image-21"/></figure>
+
+                    
+
+                    <h3><?php echo($title); ?></h3>
+
+                    
+
+                    <?php echo($paragraph_html); ?>
+
+
+
                     <div class="wp-block-group link">
                     <?php echo($read_more_html); ?>
                     </div>
-                    <!-- /wp:group --> 
+
 
                 </a>
             </div>
-            <!-- /wp:group -->
+
 
     <?php
 }

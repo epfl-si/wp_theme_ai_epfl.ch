@@ -5,17 +5,25 @@
  * Categories: featured, theme_ai_center/ai-center
  */
 ?>
-<!-- wp:cover {"url":"http://localhost:8088/wp-content/uploads/2024/01/hero-home-1024x512.jpg","id":17,"dimRatio":50,"style":{"color":{}}} -->
-<div class="wp-block-cover"><span aria-hidden="true" class="wp-block-cover__background has-background-dim"></span><img class="wp-block-cover__image-background wp-image-17" alt="" src="http://localhost:8088/wp-content/uploads/2024/01/hero-home-1024x512.jpg" data-object-fit="cover"/>
-    <div class="wp-block-cover__inner-container">
-        <!-- wp:heading -->
-        <h2 class="wp-block-heading">Exploring AI to Advance Research, Industry, and Education</h2>
-        <!-- /wp:heading -->
-        
-        <!-- wp:paragraph -->
-        <p>Learn more about us</p>
-        <!-- /wp:paragraph -->
+<!-- wp:group {{"layout":{"type":"flex","flexWrap":"nowrap"}} -->
+<div class="wp-block-group hero-home" style="background-image:url(/wp-content/themes/theme_ai_center/assets/hero-home.jpg">
+    <!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","orientation":"vertical"}} -->
+    <div class="wp-block-group center">
+        <!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","orientation":"vertical"}} -->
+        <div class="wp-block-group hero-content">
+           
+            <!-- wp:heading {"level":1} -->
+            <h1>Exploring AI to Advance Research,<br> 
+            Industry, and Education</h1>
+            <!-- /wp:heading -->
+            
+            <!-- wp:paragraph -->
+            <a class="link-lg" href="#"><span>Learn more about us</span></a>
+            <!-- /wp:paragraph -->
+           
+        </div>
+        <!-- /wp:group -->
     </div>
+    <!-- /wp:group -->
 </div>
-<!-- /wp:cover -->
-    
+<!-- /wp:group -->

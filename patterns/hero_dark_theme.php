@@ -5,12 +5,21 @@
  * Categories: featured, theme_ai_center/ai-center
  */
 ?>
-<!-- wp:cover {"overlayColor":"grey_900","layout":{"type":"constrained"}} -->
-<div class="wp-block-cover"><span aria-hidden="true" class="wp-block-cover__background has-grey-900-background-color has-background-dim-100 has-background-dim"></span>
-    <div class="wp-block-cover__inner-container">
-      
-        <!-- wp:post-title {"level":1} /-->
 
+<div class="hero dark-theme">
+      <div class="center">
+        <nav aria-label="Breadcrumb">
+          <ol class="breadcrumb">
+            <li><a href="index.html">Homepage</a></li>
+            <li><a href="research.html">Research</a></li>
+            <li>Mathematical and Statistical Foundations of Machine Learning</li>
+          </ol>
+        </nav>
+
+        <div class="hero-content">
+            <!-- wp:post-title {"level":1} /-->
+
+        </div>
+      </div>
     </div>
-</div>
-<!-- /wp:cover -->
+

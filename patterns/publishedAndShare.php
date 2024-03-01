@@ -5,40 +5,21 @@
  * Categories: featured, theme_ai_center/ai-center
  */
 ?>
-
-<!-- wp:group {"layout":{"type":"flex","orientation":"vertical"}} -->
-<div class="wp-block-group col-sm-12 col-md-4 col-3 article-details">
-    <!-- wp:group {"layout":{"type":"flex","orientation":"vertical"}} -->
-    <div class="wp-block-group sub-container-sm">
-        
-        <!-- wp:heading {"level":6} -->
-        <h6 class="wp-block-heading h6">Published</h6>
-        <!-- /wp:heading -->
-
-        <!-- wp:paragraph -->
-        <p>11 December, 2023</p>
-        <!-- /wp:paragraph -->
-    </div>
-    <!-- /wp:group -->
-
-    <!-- wp:group {"layout":{"type":"flex","orientation":"vertical"}} -->
-    <div class="wp-block-group">
-        <!-- wp:group {"layout":{"type":"flex","orientation":"vertical"}} -->
-        <div class="wp-block-group sub-container-sm">
-            
-            <!-- wp:heading {"level":6} -->
-            <h6 class="wp-block-heading h6">Share</h6>
-            <!-- /wp:heading -->
-
-            <!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap"}} -->
-            <div class="wp-block-group">
-                <!-- wp:embed {"providerNameSlug":"twitter","responsive":true} /-->
+<div class="col-sm-12 col-md-4 col-3 article-details">
+            <div class="sub-container-sm">
+              <h6 class="h6">Published</h6>
+              <p>11 December, 2023</p>
             </div>
-            <!-- /wp:group -->
+
+            <div class="share">
+              <h6 class="h6">Share</h6>
+              <ul class="share-options">
+                <li><a href="#"><i class="icon ph ph-facebook-logo"><span class="sr-only">Facebook</span></i></a></li>
+                <li><a href="#"><i class="icon ph ph-linkedin-logo"><span class="sr-only">LinkedIn</span></i></a></li>
+                <li><a href="#"><i class="icon ph ph-twitter-logo"><span class="sr-only">Twitter</span></i></a></li>
+                <li><a href="#"><i class="icon ph ph-link-simple"><span class="sr-only">Copy link</span></i></a></li>
+              </ul>
             </div>
-        <!-- /wp:group -->
-    </div>
-    <!-- /wp:group -->
-</div>
-<!-- /wp:group -->
+          </div>
+
 

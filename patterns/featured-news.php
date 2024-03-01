@@ -89,38 +89,24 @@ function render_news_item ($title, $paragraph_html, $read_more_html) {
                 } 
             ?>
 
-            <div class="col-sm-12 col-3">
-                <?php
-                    for($i = 0; $i < 3; $i++) {
-                        $post = array_shift($posts);
-                        render_news_item(
-                            $post->post_title,
-                            "<p>A new EPFL developed tool, Quotebank, has helped researchers provide the first large-scale data-driven evidence...</p>",
-                            "<span>Read on epfl.ch</span>"
-                        );
-                    }
+            <?php
+                for($i = 0; $i < 2; $i++) {
                     ?>
-            </div>
-
-            <div class="col-sm-12 col-3">
-                <?php
-                    render_news_item(
-                        "A new EPFL tool shows the decline of political tone in the US",
-                        "<p>A new EPFL developed tool, Quotebank, has helped researchers provide the first large-scale data-driven evidence...</p>",
-                        "<span>Read on epfl.ch</span>"
-                    );
-                    render_news_item(
-                        "AMLD EPFL 2024 call for workshops",
-                        "<p>A new EPFL developed tool, Quotebank, has helped researchers provide the first large-scale data-driven evidence...</p>",
-                        "<span>Read on appliedmldays.org</span>"
-                    );
-                    render_news_item(
-                        "A new EPFL tool shows the decline of political tone in the US",
-                        "<p>A new EPFL developed tool, Quotebank, has helped researchers provide the first large-scale data-driven evidence...</p>",
-                        "<span>Read on epfl.ch</span>"
-                    );
-                ?>
-            </div>
+                    <div class="col-sm-12 col-3">
+                    <?php
+                        for($j = 0; $j < 3; $j++) {
+                            $post = array_shift($posts);
+                            render_news_item(
+                                $post->post_title,
+                                "<p>A new EPFL developed tool, Quotebank, has helped researchers provide the first large-scale data-driven evidence...</p>",
+                                "<span>Read on epfl.ch</span>"
+                            );
+                        }
+                    ?>
+                    </div>
+                    <?php
+                }
+            ?>
         </div>
     </div>
 </div>

@@ -18,7 +18,7 @@ function render_news_item_lg ($title, $image_html, $paragraph_html, $read_more_h
 
                 <h3><?php echo($title); ?></h3>
 
-                <?php echo($paragraph_html); ?>
+                <p><?php echo($paragraph_html); ?></p>
 
                 <div class="link">
                 <?php echo($read_more_html); ?>
@@ -79,7 +79,7 @@ function render_news_item ($title, $paragraph_html, $read_more_html) {
                     render_news_item_lg (
                         $post->post_title,
                         get_the_post_thumbnail($post),
-                        "<p>A new EPFL developed tool, Quotebank, has helped researchers provide the first large-scale data-driven evidence...</p>",
+                        get_the_excerpt($post),
                         "<span>Read on epfl.ch</span>"
                     );
                 } else {
@@ -95,12 +95,15 @@ function render_news_item ($title, $paragraph_html, $read_more_html) {
                     <div class="col-sm-12 col-3">
                     <?php
                         for($j = 0; $j < 3; $j++) {
+                            global $specific_excerpt_length;
+                            $specific_excerpt_length = 15;
                             $post = array_shift($posts);
                             render_news_item(
                                 $post->post_title,
-                                "<p>A new EPFL developed tool, Quotebank, has helped researchers provide the first large-scale data-driven evidence...</p>",
+                                get_the_excerpt($post),
                                 "<span>Read on epfl.ch</span>"
                             );
+                            unset($specific_excerpt_length);
                         }
                     ?>
                     </div>

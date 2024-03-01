@@ -23,3 +23,13 @@ function theme_ai_center_setup_styles() {
 add_action( 'wp_enqueue_scripts', 'theme_ai_center_setup_styles', 100 );
 
 
+function custom_excerpt_length( $length ) {
+	global $specific_excerpt_length;
+	return $specific_excerpt_length ? $specific_excerpt_length : 30;
+}
+add_filter( 'excerpt_length', 'custom_excerpt_length', 999 );
+
+function custom_ellipsis( $ellipsis ) {
+	return '&hellip;';
+}
+add_filter( 'excerpt_more', 'custom_ellipsis' );

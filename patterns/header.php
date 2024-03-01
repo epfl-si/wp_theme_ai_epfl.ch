@@ -5,77 +5,38 @@
  * Categories: header, theme_ai_center/ai-center
  */
 ?>
-<!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40"},"margin":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30"}}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"center"}} -->
-<div class="wp-block-group navbar" style="margin-top:var(--wp--preset--spacing--30);margin-bottom:var(--wp--preset--spacing--30);padding-top:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--40)">
-    
-    <!-- wp:group {"layout":{"type":"constrained"}} -->
-    <div class="wp-block-group center">
+<header class="navbar" role="banner">
+      <div class="center">
+        <div class="row">
+          <div class="col-sm col-md-4 col-6">
+            <div class="logo-search">
+              <div class="brand">
+                <a class="logo" href="#"><span class="sr-only">EPFL AI Center</span></a>
+              </div>
 
-        <!-- wp:group {"layout":{"type":"constrained"}} -->
-        <div class="wp-block-group row">
+              <div class="search-box">
+                <input type="text" id="search-input" class="search-input" placeholder="Search">
+                <label for="search-input" class="clear-icon" onclick="document.getElementById('search-input').value = '';"></label>
+              </div>
 
-            <!-- wp:group {"layout":{"type":"constrained"}} -->
-            <div class="wp-block-group col-sm col-md-4 col-6">
-
-                <!-- wp:group {"layout":{"type":"constrained"}} -->
-                <div class="wp-block-group logo-search">
-                    <!-- wp:template-part {"slug":"logo","theme":"theme_ai_center"} /-->
-
-                    <!-- wp:group {"layout":{"type":"constrained"}} -->
-                    <div class="wp-block-group search-box">
-
-                    <!-- wp:search {"label":"Search","showLabel":false,"buttonText":"Search","buttonPosition":"button-inside","buttonUseIcon":true} /-->
-
-                    </div>
-                    <!-- /wp:group --> 
-                </div>
-                <!-- /wp:group -->  
+              <button class="button search-button"><i class="icon ph ph-magnifying-glass"><span class="sr-only">Search</span></i></button>
             </div>
-            <!-- /wp:group -->
+          </div>
 
-            <!-- wp:group {"layout":{"type":"constrained"}} -->
-            <div class="wp-block-group col-sm-min col-md-8 col-6">
+          <div class="col-sm-min col-md-8 col-6">
+            <nav class="main-nav">
+              <ul>
+                <li><a href="about.html">About</a></li>
+                <li><button class="dropdown-toggle" id="researchButton">Research <i class="ph ph-caret-down"></i></button></li>
+                <li><a href="#" class="dropdown-toggle">Industry <i class="ph ph-caret-down"></i></a></li>
+                <li><a href="#" class="dropdown-toggle">Education <i class="ph ph-caret-down"></i></a></li>
+                <li><a href="news.html">News</a></li>
+                <li><a href="events.html">Events</a></li>
+              </ul> 
+            </nav>
 
-                <!-- wp:group {"tagName": "nav"} --> 
-                <nav class="wp-block-group main-nav">
-                    <!-- wp:list -->
-                    <ul><!-- wp:list-item -->
-                        <li>About</li>
-                        <!-- /wp:list-item -->
-                        
-                        <!-- wp:list-item -->
-                        <li>Research</li>
-                        <!-- /wp:list-item -->
-                        
-                        <!-- wp:list-item -->
-                        <li>Industry</li>
-                        <!-- /wp:list-item -->
-                        
-                        <!-- wp:list-item -->
-                        <li>Education</li>
-                        <!-- /wp:list-item -->
-                        
-                        <!-- wp:list-item -->
-                        <li>News</li>
-                        <!-- /wp:list-item -->
-                        
-                        <!-- wp:list-item -->
-                        <li>Events</li>
-                        <!-- /wp:list-item -->
-                    </ul>
-                    <!-- /wp:list -->
-                </nav>
-                <!-- /wp:group --> 
-
-            </div>
-            <!-- /wp:group -->
-
-
+            <button class="button menu-button"><i class="icon ph ph-list"><span class="sr-only">Menu</span></i></button>
+          </div>
         </div>
-        <!-- /wp:group -->
-
-    </div>
-    <!-- /wp:group -->
-
-</div>
-<!-- /wp:group -->
+      </div>
+    </header>

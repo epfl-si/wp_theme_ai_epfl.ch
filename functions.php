@@ -19,6 +19,7 @@ function theme_ai_center_register_pattern_categories() {
 function theme_ai_center_setup_styles() {
     wp_dequeue_style( 'global-styles' );
 	wp_enqueue_style( 'load-phosphor-icons', 'https://unpkg.com/@phosphor-icons/web@2.0.3/src/regular/style.css' );
+	wp_enqueue_style( 'ai-styles', get_theme_file_uri('style.css') );
 }
 add_action( 'wp_enqueue_scripts', 'theme_ai_center_setup_styles', 100 );
 

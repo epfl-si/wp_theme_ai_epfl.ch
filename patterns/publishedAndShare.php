@@ -5,10 +5,45 @@
  * Categories: featured, theme_ai_center/ai-center
  */
 ?>
+
+<?php
+function render_published_date ($date) {
+	echo ($date);
+}
+?>
+
+<?php 
+
+	$args = array(
+		'posts_per_page' => -1,
+		'orderby'   => array (
+			'date' =>'DESC'
+		)
+	);
+
+    $query = new WP_Query( $args );
+
+	$posts = $query->posts;
+
+
+?>
+
+
 <div class="col-sm-12 col-md-4 col-3 article-details">
             <div class="sub-container-sm">
-              <h6 class="h6">Published</h6>
-              <p>11 December, 2023</p>
+				<h6 class="h6">Published</h6>
+				<p>
+					<?php
+					$post = array_shift($posts);
+					if ($post) {
+						render_published_date(get_the_date('j F, Y', $post));
+					} else {
+						?>
+						<p>No posts here today!</p>
+						<?php
+					} 
+					?>
+				</p>
             </div>
 
             <div class="share">

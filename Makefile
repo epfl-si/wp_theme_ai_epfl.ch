@@ -1,5 +1,6 @@
 mockup: 
-	git clone git@github.com:jsnrynlds/epfl-ai-center-ui.git JasonsTheme || true
+	git clone git@github.com:epfl-si/epfl-ai-center-ui.git JasonsTheme || true
+	git checkout feature/h1-h6
 	if grep -q "JasonsTheme" .gitignore;then echo "JasonsTheme already exists in .gitignore"; else echo "JasonsTheme" >> .gitignore; fi
 	cd JasonsTheme; \
 	git pull --rebase --autostash; \

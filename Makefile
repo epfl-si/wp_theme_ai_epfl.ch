@@ -83,5 +83,5 @@ add-theme-info:
 		echo "style.css already have theme info.";\
 	else \
 		THEME_INFO=$$(cat _theme_info.txt); \
-		echo "$$THEME_INFO\n$$(cat style.css)" > style.css; \
+		echo "$$THEME_INFO$$(cat style.css)" > style.css; \
 	fi

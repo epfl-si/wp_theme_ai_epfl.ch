@@ -1,0 +1,6 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "theme-ai-center/date-published",
+  "render": "file:./date-published.php"
+}

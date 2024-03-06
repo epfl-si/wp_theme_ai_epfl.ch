@@ -34,3 +34,9 @@ function custom_ellipsis( $ellipsis ) {
 	return '&hellip;';
 }
 add_filter( 'excerpt_more', 'custom_ellipsis' );
+
+foreach(glob(__DIR__ . '/blocks/*') as $block_dir) {
+  if (! register_block_type_from_metadata($block_dir)) {
+    die("Unable to register block in $block_dir");
+  }
+}

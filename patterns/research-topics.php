@@ -7,7 +7,7 @@
 ?>
 <div class="col-sm-12 col-md-8 col-3">
     <div class="sub-container-sm">
-        <h6 class="h6">Research Topics</h6>
+        <h6>Research Topics</h6>
 
         <ul class="divider-list">
             <li>Mathematical and Statistical Foundations of Machine Learning</li>

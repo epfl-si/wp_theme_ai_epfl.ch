@@ -11,7 +11,7 @@ function render_interesting_item($title, $paragraph, $read_more_hmtl) {
     ?>
     <a href="#" class="card">
         <header>
-            <h4 class="h4"><?php echo($title) ?><br>
+            <h4><?php echo($title) ?><br>
         </header>
         <div class="card-content">
             <p><?php echo($paragraph) ?></p>
@@ -26,7 +26,7 @@ function render_interesting_item($title, $paragraph, $read_more_hmtl) {
 <div class="card-deck bg-grey-100">
     <div class="center">
         <div class="section-header">
-          <h6 class="h6">You may also be interested in</h6>
+          <h6>You may also be interested in</h6>
         </div>
 
         <div class="row">

@@ -28,11 +28,11 @@
             <li class="accordion-item">
                 <button class="accordion-toggle">Research<i class="icon ph ph-caret-down"></i></button>
                 <ul class="accordion-content">
-                    <li><h6 class="h6">Information &amp; Resources</h6></li>
+                    <li><h6>Information &amp; Resources</h6></li>
                     <li><a href="research.html">Overview<i class="icon ph ph-caret-right"></i></a></li>
                     <li><a href="#">Our Approach<i class="icon ph ph-caret-right"></i></a></li>
                     <li><a href="#">Publications<i class="icon ph ph-caret-right"></i></a></li>
-                    <li><h6 class="h6">Research Areas</h6></li>
+                    <li><h6>Research Areas</h6></li>
                     <li><a href="#">AI Foundations<i class="icon ph ph-caret-right"></i></a></li>
                     <li><a href="#">AI / Machine Learning Consulting Service<i class="icon ph ph-caret-right"></i></a></li>
                     <li><a href="#">AI for Good &amp; Sustainability<i class="icon ph ph-caret-right"></i></a></li>
@@ -41,7 +41,7 @@
             <li class="accordion-item">
             <button class="accordion-toggle">Industry<i class="icon ph ph-caret-down"></i></button>
             <ul class="accordion-content">
-                <li><h6 class="h6">Information &amp; Resources</h6></li>
+                <li><h6>Information &amp; Resources</h6></li>
                 <li><a href="#">Overview<i class="icon ph ph-caret-right"></i></a></li>
                 <li><a href="#">Something<i class="icon ph ph-caret-right"></i></a></li>
                 <li><a href="#">Something else<i class="icon ph ph-caret-right"></i></a></li>
@@ -50,7 +50,7 @@
             <li class="accordion-item">
             <button class="accordion-toggle">Education<i class="icon ph ph-caret-down"></i></button>
             <ul class="accordion-content">
-                <li><h6 class="h6">Information &amp; Resources</h6></li>
+                <li><h6>Information &amp; Resources</h6></li>
                 <li><a href="#">Overview<i class="icon ph ph-caret-right"></i></a></li>
                 <li><a href="#">Something<i class="icon ph ph-caret-right"></i></a></li>
                 <li><a href="#">Something else<i class="icon ph ph-caret-right"></i></a></li>
@@ -83,7 +83,7 @@
           <div class="row">
             <div class="col-12">
               <header class="nav-dropdown-header">
-                <h4 class="h4">Research</h4>
+                <h4>Research</h4>
                 <button class="button close-button"><i class="icon ph ph-x"><span class="sr-only">Close menu</span></i></button>
               </header>
             </div>
@@ -92,7 +92,7 @@
           <div class="row">
             <div class="col-3">
               <div class="nav-dropdown-section">
-                <header><h6 class="h6">Information &amp; Resources</h6></header>
+                <header><h6>Information &amp; Resources</h6></header>
                 <ul class="divider-link-list">
                   <li><a href="#"><span>Overview</span><i class="icon ph ph-caret-right"></i></a></li>
                   <li><a href="#"><span>Overview</span><i class="icon ph ph-caret-right"></i></a></li>
@@ -103,7 +103,7 @@
 
             <div class="col-9">
               <div class="nav-dropdown-section">
-                <header><h6 class="h6">Research Areas</h6></header>
+                <header><h6>Research Areas</h6></header>
                 <ul class="divider-link-list list-col-3">
                   <li><a href="#"><span>Overview</span><i class="icon ph ph-caret-right"></i></a></li>
                   <li><a href="#"><span>Overview</span><i class="icon ph ph-caret-right"></i></a></li>

@@ -57,7 +57,7 @@ function custom_share_buttons() {
 
 <div class="col-sm-12 col-md-4 col-3 article-details">
 	<div class="sub-container-sm">
-		<h6 class="h6">Published</h6>
+		<h6>Published</h6>
 		<p>
 			<?php
 			$post = array_shift($posts);
@@ -73,7 +73,7 @@ function custom_share_buttons() {
 	</div>
 
 	<div class="share">
-		<h6 class="h6">Share</h6>
+		<h6>Share</h6>
 		<ul class="share-options">
 		<?php custom_share_buttons(); ?>
 		<li><a href="#"><i class="icon ph ph-link-simple"><span class="sr-only">Copy link</span></i></a></li>

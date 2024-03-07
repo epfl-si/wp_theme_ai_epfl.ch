@@ -1,7 +1,7 @@
 <?php
 /**
- * Title: HeroContent
- * Slug: theme_ai_center/heroContent
+ * Title: HeroHome
+ * Slug: theme_ai_center/heroHome
  * Categories: featured, theme_ai_center/ai-center
  */
 ?>

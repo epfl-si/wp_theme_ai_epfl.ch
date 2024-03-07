@@ -82,6 +82,9 @@ add-theme-info:
 	@if grep -q "Author URI: https://go.epfl.ch/isas-fsd" style.css; then \
 		echo "style.css already have theme info.";\
 	else \
+		STYLE=$$(cat style.css); \
 		THEME_INFO=$$(cat _theme_info.txt); \
-		echo "$$THEME_INFO$$(cat style.css)" > style.css; \
+		echo "$$THEME_INFO" > style.css; \
+		echo "" >> style.css; \
+		echo "$$STYLE" >> style.css; \
 	fi

@@ -9,7 +9,7 @@
 <div class="hero">
     <div class="center">
         <div class="hero-content">
-          <h1 class="h1">Pioneering Intelligence,<br>
+          <h1>Pioneering Intelligence,<br>
           Transforming Futures</h1>
         </div>
     </div>

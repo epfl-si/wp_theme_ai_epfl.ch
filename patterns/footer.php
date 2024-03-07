@@ -31,7 +31,7 @@
 					CH-1015 Lausanne
 					</p>
 					<!-- /wp:paragraph -->
-					<a href="mailto:info@ai.epfl.ch">info@ai.epfl.ch</a>
+					<a href="mailto:epflai@epfl.ch">epflai@epfl.ch</a>
 				</div>
 				<!-- /wp:group -->
 			</div>

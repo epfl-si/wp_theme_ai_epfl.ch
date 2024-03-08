@@ -6,44 +6,6 @@
  */
 ?>
 
-<?php
-function render_news_item_lg ($title, $image_html, $paragraph_html, $read_more_html) {
-    ?>
-        <div class="col-sm-12 col-6">
-            <a class="news-item-lg">
-
-                <picture>
-                <?php echo($image_html); ?>
-                </picture>
-
-                <h3><?php echo($title); ?></h3>
-
-                <p><?php echo($paragraph_html); ?></p>
-
-                <div class="link">
-                <?php echo($read_more_html); ?>
-                </div>
-
-            </a>
-        </div>
-    <?php
-}
-function render_news_item ($title, $paragraph_html, $read_more_html) {
-    ?> 
-        <a class="news-item">
-
-            <h5><?php echo($title); ?></h5>
-            
-            <?php echo($paragraph_html); ?>
-
-            <div class="wp-block-group link-sm">
-            <?php echo($read_more_html); ?>
-            </div>
-        </a>
-    <?php
-}
-
-?>
 
 <?php 
 
@@ -62,7 +24,6 @@ function render_news_item ($title, $paragraph_html, $read_more_html) {
 
 ?>
 
-
 <div class="featured-news">
     <div class="center">
         <div class="section-header">
@@ -73,21 +34,7 @@ function render_news_item ($title, $paragraph_html, $read_more_html) {
         </div>
 
         <div class="row">
-            <?php
-                $post = array_shift($posts);
-                if ($post) {
-                    render_news_item_lg (
-                        $post->post_title,
-                        get_the_post_thumbnail($post),
-                        get_the_excerpt($post),
-                        "<span>Read on epfl.ch</span>"
-                    );
-                } else {
-                    ?>
-                    <p>No posts here today!</p>
-                    <?php
-                } 
-            ?>
+            <!-- wp:theme-ai-center/featured-news-lg /-->
 
             <?php
                 for($i = 0; $i < 2; $i++) {
@@ -98,11 +45,9 @@ function render_news_item ($title, $paragraph_html, $read_more_html) {
                             global $specific_excerpt_length;
                             $specific_excerpt_length = 15;
                             $post = array_shift($posts);
-                            render_news_item(
-                                $post->post_title,
-                                get_the_excerpt($post),
-                                "<span>Read on epfl.ch</span>"
-                            );
+                            ?>
+                            <!-- wp:theme-ai-center/featured-news /-->
+                            <?php
                             unset($specific_excerpt_length);
                         }
                     ?>
@@ -110,6 +55,9 @@ function render_news_item ($title, $paragraph_html, $read_more_html) {
                     <?php
                 }
             ?>
+
+
+            
         </div>
     </div>
 </div>

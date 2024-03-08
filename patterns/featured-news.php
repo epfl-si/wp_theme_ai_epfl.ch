@@ -67,7 +67,7 @@ function render_news_item ($title, $paragraph_html, $read_more_html) {
     <div class="center">
         <div class="section-header">
             <h6>News</h6>
-            <a class="link">
+            <a class="link" href="news.html">
                 <span>Read all news</span>
             </a>
         </div>

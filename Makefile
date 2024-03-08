@@ -1,7 +1,7 @@
 SHELL := /bin/bash
 VERSION := $(shell cat _theme_info.txt | grep 'Version:' | awk '{print $$2}')
 JASON_THEME := JasonsTheme
-THEME_BRANCH := feature/h1-h6
+THEME_BRANCH := feature/hover
 
 .PHONY: help
 ## Print this help (see <https://gist.github.com/klmr/575726c7e05d8780505a> for explanation)

@@ -1,0 +1,6 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "theme-ai-center/featured-news",
+  "render": "file:./featured-news.php"
+}

@@ -11,7 +11,7 @@
         <div class="section-header">
             <h6>Events</h6>
             <a class="wp-block-group link">
-                <span>Read all news</span>
+                <span>See all events</span>
             </a>
         </div>
 

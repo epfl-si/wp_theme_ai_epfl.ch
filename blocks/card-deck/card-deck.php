@@ -33,7 +33,7 @@ function render_event_item ($image_url, $title, $date, $time, $location, $read_m
 }
 
 render_event_item(
-    "http://localhost:8088/wp-content/uploads/2024/01/placeholder-event-1.jpg",
+    "/wp-content/uploads/2024/01/placeholder-event-1.jpg",
     "AMLD EPFL 2024",
     "23-26 Mar. 2024",
     "09:00-19:00",
@@ -42,7 +42,7 @@ render_event_item(
 );
 
 render_event_item(
-    "http://localhost:8088/wp-content/uploads/2024/01/placeholder-event-2.jpg",
+    "/wp-content/uploads/2024/01/placeholder-event-2.jpg",
     "Industry Research Workshop: Machine Learning for Health Care and Life Sciences",
     "23-06 Dec. 2024",
     "09:00-19:00",
@@ -51,7 +51,7 @@ render_event_item(
 );
 
 render_event_item(
-    "http://localhost:8088/wp-content/uploads/2024/01/placeholder-event-3.jpg",
+    "/wp-content/uploads/2024/01/placeholder-event-3.jpg",
     "Python for Data Science and Machine Learning (EN) 2023",
     "23-11 Dec. 2024",
     "09:00-19:00",

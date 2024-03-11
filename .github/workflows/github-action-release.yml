@@ -10,4 +10,4 @@ jobs:
       with:
         type: 'zip'
         filename: 'theme_ai_center.zip'
-        exclusions: '*.git* Makefile README.md'
+        exclusions: '*.git* Makefile _theme_info.txt README.md'

@@ -12,12 +12,5 @@
 		<p><!-- wp:theme-ai-center/date-published /--></p>
 	</div>
 
-	<div class="share">
-		<h6>Share</h6>
-		<ul class="share-options">
-	      <!-- wp:theme-ai-center/share-buttons /-->
-		<li><a href="#"><i class="icon ph ph-link-simple"><span class="sr-only">Copy link</span></i></a></li>
-		</ul>
-
-	</div>
+	<!-- share part moved in the single.html temporary. Move it here again when "research topics" will be created -->
 </div>

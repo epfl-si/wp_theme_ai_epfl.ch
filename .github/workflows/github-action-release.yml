@@ -14,4 +14,4 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - uses: ncipollo/release-action@v1
-    - name: theme_ai_center
+    - name: "theme_ai_center"

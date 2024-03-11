@@ -1,17 +1,29 @@
-name: Releases
-
-on: 
+on:
   push:
+    # Sequence of patterns matched against refs/tags
     tags:
-    - 'release'
+      - 'v*'
+
+name: Create Release
 
 jobs:
-
   build:
+    name: Create Release
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
     steps:
-    - uses: actions/checkout@v3
-    - uses: ncipollo/release-action@v1
-    - name: "theme_ai_center"
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: Create Release
+        id: create_release
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: ${{ github.ref }}
+          release_name: Release ${{ github.ref }}
+          body: |
+            Changes in this Release
+            - Basic pages created
+            - Include social links
+          draft: false
+          prerelease: false

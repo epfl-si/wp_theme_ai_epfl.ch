@@ -81,15 +81,15 @@
 						<!-- /wp:list-item -->
 						
 						<!-- wp:list-item -->
-						<li><a href="#">LinkedIn</a></li>
+						<li><a href="https://www.linkedin.com/company/epfl-ai-center/">LinkedIn</a></li>
 						<!-- /wp:list-item -->
 						
 						<!-- wp:list-item -->
-						<li><a href="#">Mastodon</a></li>
+						<li><a href="https://mastodon.social/@EPFL_AI_Center">Mastodon</a></li>
 						<!-- /wp:list-item -->
 						
 						<!-- wp:list-item -->
-						<li><a href="#">X / Twitter</a></li>
+						<li><a href="https://twitter.com/EPFL_AI_Center">X / Twitter</a></li>
 						<!-- /wp:list-item -->
 					</ul>
 					<!-- /wp:list -->

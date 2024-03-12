@@ -75,11 +75,7 @@
 				<!-- wp:group {"tagName": "nav"} --> 
 				<nav class="wp-block-group footer-socials">
 					<!-- wp:list -->
-					<ul class="unstyled-list">
-						<!-- wp:list-item -->
-						<li><a href="#">Instagram</a></li>
-						<!-- /wp:list-item -->
-						
+					<ul class="unstyled-list">					
 						<!-- wp:list-item -->
 						<li><a href="https://www.linkedin.com/company/epfl-ai-center/">LinkedIn</a></li>
 						<!-- /wp:list-item -->

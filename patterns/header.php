@@ -145,8 +145,8 @@
               <ul>
                 <li><a href="about.html">About</a></li>
                 <li><button class="dropdown-toggle" id="researchButton">Research <i class="ph ph-caret-down"></i></button></li>
-                <li><a href="#" class="dropdown-toggle">Industry <i class="ph ph-caret-down"></i></a></li>
-                <li><a href="#" class="dropdown-toggle">Education <i class="ph ph-caret-down"></i></a></li>
+                <li><a href="industry.html" class="dropdown-toggle">Industry <i class="ph ph-caret-down"></i></a></li>
+                <li><a href="education.html" class="dropdown-toggle">Education <i class="ph ph-caret-down"></i></a></li>
                 <li><a href="news.html">News</a></li>
                 <li><a href="events.html">Events</a></li>
               </ul> 

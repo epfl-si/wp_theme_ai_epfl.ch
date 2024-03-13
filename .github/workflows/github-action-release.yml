@@ -1,6 +1,5 @@
 on:
   push:
-    # Sequence of patterns matched against refs/tags
     tags:
       - 'v*'
 
@@ -18,14 +17,23 @@ jobs:
         run: sudo apt-get install zip
 
       - name: Create Zip
-        run: zip -r theme_ai_center.zip . -x '*.git* JasonTheme/ _theme_info.txt Makefile README.md'
+        run: |
+          cd .. ; 
+          zip -r theme_ai_center.zip wp_theme_ai_epfl.ch/ \
+              --exclude "wp_theme_ai_epfl.ch/*.git*" \
+              --exclude "wp_theme_ai_epfl.ch/JasonsTheme/*" \
+              --exclude "wp_theme_ai_epfl.ch/_theme_info.txt" \
+              --exclude "wp_theme_ai_epfl.ch/Makefile" \
+              --exclude "wp_theme_ai_epfl.ch/README.md" ;
+          cp theme_ai_center.zip theme_ai_center_${{ github.ref_name }}.zip
 
       - name: Create Release
         id: create_release
         uses: softprops/action-gh-release@v2
         with:
-          tag_name: v${{ github.run_number }}
-          release_name: Release v${{ github.run_number }}
-          draft: true
-          prerelease: true
-          files: theme_ai_center.zip
+          tag_name: ${{ github.ref_name }}
+          name: Release ${{ github.ref_name }}
+          files: | 
+            ../theme_ai_center_${{ github.ref_name }}.zip 
+            ../theme_ai_center.zip
+          generate_release_notes: true

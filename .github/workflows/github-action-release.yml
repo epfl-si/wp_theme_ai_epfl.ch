@@ -13,6 +13,12 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
+      - name: Archive Release
+        uses: thedoctor0/zip-release@0.7.5
+        with: 
+          type: 'zip'
+          filename: 'theme_ai_center.zip'
+          exclusions: '*.git* JasonTheme/ _theme_info.txt Makefile README.md'  
       - name: Create Release
         id: create_release
         uses: softprops/action-gh-release@v2
@@ -20,9 +26,3 @@ jobs:
           artifacts: 'theme_ai_center.zip'
           draft: true
           prerelease: true
-      - name: Archive Release
-        uses: thedoctor0/zip-release@0.7.5
-        with: 
-          type: 'zip'
-          filename: 'theme_ai_center.zip'
-          exclusions: '*.git* JasonTheme/ _theme_info.txt Makefile README.md'  

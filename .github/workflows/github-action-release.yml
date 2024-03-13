@@ -24,7 +24,8 @@ jobs:
         id: create_release
         uses: softprops/action-gh-release@v2
         with:
-          artifacts: 'theme_ai_center.zip'
+          tag_name: v${{ github.run_number }}
+          release_name: Release v${{ github.run_number }}
           draft: true
           prerelease: true
       

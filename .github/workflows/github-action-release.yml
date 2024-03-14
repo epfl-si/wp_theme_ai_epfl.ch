@@ -18,14 +18,13 @@ jobs:
 
       - name: Create Zip
         run: |
-          cd .. ; 
-          zip -r theme_ai_center.zip wp_theme_ai_epfl.ch/ \
-              --exclude "wp_theme_ai_epfl.ch/*.git*" \
-              --exclude "wp_theme_ai_epfl.ch/JasonsTheme/*" \
-              --exclude "wp_theme_ai_epfl.ch/_theme_info.txt" \
-              --exclude "wp_theme_ai_epfl.ch/Makefile" \
-              --exclude "wp_theme_ai_epfl.ch/README.md" ;
+          mkdir -p dist/theme_ai_center
+          mv assets blocks parts patterns templates README.md *.php *.css theme.json dist/theme_ai_center
+          cd dist
+          zip -r theme_ai_center.zip theme_ai_center
           cp theme_ai_center.zip theme_ai_center_${{ github.ref_name }}.zip
+          pwd
+          ls -al
 
       - name: Create Release
         id: create_release
@@ -34,6 +33,6 @@ jobs:
           tag_name: ${{ github.ref_name }}
           name: Release ${{ github.ref_name }}
           files: | 
-            ../theme_ai_center_${{ github.ref_name }}.zip 
-            ../theme_ai_center.zip
+            ./dist/theme_ai_center_${{ github.ref_name }}.zip 
+            ./dist/theme_ai_center.zip
           generate_release_notes: true

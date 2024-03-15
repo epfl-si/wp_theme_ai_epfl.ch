@@ -40,3 +40,20 @@ foreach(glob(__DIR__ . '/blocks/*') as $block_dir) {
     die("Unable to register block in $block_dir");
   }
 }
+
+function copyToClipboard() {
+	?>
+		<script>
+			document.addEventListener('DOMContentLoaded', function() {
+				var copyUrlBtn = document.getElementById('copy-url-btn');
+				var currentUrl = window.location.href;
+				if (copyUrlBtn) {
+					copyUrlBtn.addEventListener('click', function() {
+						navigator.clipboard.writeText(currentUrl);
+					});
+				}
+			});
+		</script>
+	<?php
+}
+add_action( 'wp_head', 'copyToClipboard' );

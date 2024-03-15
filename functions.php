@@ -23,6 +23,22 @@ function theme_ai_center_setup_styles() {
 }
 add_action( 'wp_enqueue_scripts', 'theme_ai_center_setup_styles', 100 );
 
+function add_type_attribute($tag, $handle, $src) {
+    // if not your script, do nothing and return original $tag
+    if ( 'theme_script' == $handle ) {
+		$tag = '<script type="module" src="' . esc_url( $src ) . '"></script>';
+        return $tag;
+    } 
+	else {
+        return $tag;
+	}
+}
+add_filter('script_loader_tag', 'add_type_attribute' , 10, 3);
+
+function theme_ai_center_scripts() {
+	wp_enqueue_script('theme_script', get_template_directory_uri() . "/assets/js/custom_JS.js");
+}
+add_action( 'wp_enqueue_scripts', 'theme_ai_center_scripts');
 
 function custom_excerpt_length( $length ) {
 	global $specific_excerpt_length;
@@ -57,3 +73,4 @@ function copyToClipboard() {
 	<?php
 }
 add_action( 'wp_head', 'copyToClipboard' );
+

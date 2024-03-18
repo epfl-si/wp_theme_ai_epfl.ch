@@ -49,10 +49,10 @@
 						<li><a href="research.html">Research</a></li>
 						<!-- /wp:list-item -->
 						<!-- wp:list-item -->
-						<li><a href="#">Industry</a></li>
+						<li><a href="industry.html">Industry</a></li>
 						<!-- /wp:list-item -->
 						<!-- wp:list-item -->
-						<li><a href="#">Education</a></li>
+						<li><a href="education.html">Education</a></li>
 						<!-- /wp:list-item -->
 						<!-- wp:list-item -->
 						<li><a href="news.html">News</a></li>

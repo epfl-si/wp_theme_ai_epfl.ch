@@ -131,10 +131,6 @@
                 <a class="logo" href="#"><span class="sr-only">EPFL AI Center</span></a>
               </div>
 
-              <div class="search-box">
-                <input type="text" id="search-input" class="search-input" placeholder="Search">
-                <label for="search-input" class="clear-icon" onclick="document.getElementById('search-input').value = '';"></label>
-              </div>
 
               <button class="button search-button"><i class="icon ph ph-magnifying-glass"><span class="sr-only">Search</span></i></button>
             </div>

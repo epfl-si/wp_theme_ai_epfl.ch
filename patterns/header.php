@@ -140,7 +140,7 @@
             <nav class="main-nav">
               <ul>
                 <li><a href="about.html">About</a></li>
-                <li><button class="dropdown-toggle" id="researchButton">Research</button></li>
+                <li><a href="research.html" class="dropdown-toggle">Research</a></li>
                 <li><a href="industry.html" class="dropdown-toggle">Industry</a></li>
                 <li><a href="education.html" class="dropdown-toggle">Education</a></li>
                 <li><a href="news.html">News</a></li>

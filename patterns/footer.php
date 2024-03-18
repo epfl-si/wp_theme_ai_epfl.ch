@@ -26,8 +26,6 @@
 				<div class="wp-block-group footer-contact">
 					<!-- wp:paragraph -->
 					<p>EPFL AI Center<br>
-					INM 168 (INM Building)<br>
-					Station 14<br>
 					CH-1015 Lausanne
 					</p>
 					<!-- /wp:paragraph -->
@@ -114,15 +112,15 @@
 					<!-- wp:list -->
 					<ul class="unstyled-h-list">
 						<!-- wp:list-item -->
-						<li><a href="#">Accessibilty</a></li>
+						<li><a href="https://www.epfl.ch/about/overview/regulations-and-guidelines/disclaimer/">Accessibilty</a></li>
 						<!-- /wp:list-item -->
 						
 						<!-- wp:list-item -->
-						<li><a href="#">Disclaimer</a></li>
+						<li><a href="https://www.epfl.ch/about/overview/regulations-and-guidelines/disclaimer/">Disclaimer</a></li>
 						<!-- /wp:list-item -->
 						
 						<!-- wp:list-item -->
-						<li><a href="#">Privacy Policy</a></li>
+						<li><a href="https://www.epfl.ch/about/presidency/presidents-team/legal-affairs/epfl-privacy-policy/">Privacy Policy</a></li>
 						<!-- /wp:list-item -->
 					</ul>
 					<!-- /wp:list -->

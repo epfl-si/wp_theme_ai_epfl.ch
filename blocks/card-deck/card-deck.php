@@ -36,7 +36,7 @@ render_event_item(
     "https://memento.epfl.ch/event/5-days-amld-epfl-2024-join-us/",
     "/wp-content/uploads/2024/01/amld.jpg",
     "5 days AMLD EPFL 2024 - Join us!",
-    "13 Dec. 2023 > 22 Mar. 2024",
+    "23-26 Mar. 2024",
     "09:00-19:00",
     "EPFL, Lausanne",
     "Visit epfl.ch"

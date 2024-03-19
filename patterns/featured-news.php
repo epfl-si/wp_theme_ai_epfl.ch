@@ -28,7 +28,7 @@
     <div class="center">
         <div class="section-header">
             <h6>News</h6>
-            <a class="link" href="news.html">
+            <a class="link" href="news">
                 <span>Read all news</span>
             </a>
         </div>

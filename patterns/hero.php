@@ -5,7 +5,7 @@
  * Categories: featured, theme_ai_center/ai-center
  */
 
-function render_news_item_lg ($title) {
+function render_page_title ($title) {
   ?>        
     <div class="hero">
         <div class="center">
@@ -22,6 +22,6 @@ $equalsPos = strpos($uri, '=');
 if ($equalsPos !== false) {
   $pageId = substr($uri, $equalsPos + 1);
  
-  render_news_item_lg (get_the_title($pageId));
+  render_page_title (get_the_title($pageId));
 } 
          

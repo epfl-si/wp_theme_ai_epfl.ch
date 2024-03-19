@@ -22,12 +22,12 @@
           <div class="col-sm-min col-md-8 col-6">
             <nav class="main-nav">
               <ul>
-                <li><a href="about.html">About</a></li>
-                <li><a href="research.html" class="dropdown-toggle">Research</a></li>
-                <li><a href="industry.html" class="dropdown-toggle">Industry</a></li>
-                <li><a href="education.html" class="dropdown-toggle">Education</a></li>
-                <li><a href="news.html">News</a></li>
-                <li><a href="events.html">Events</a></li>
+                <li><a href="about">About</a></li>
+                <li><a href="research" class="dropdown-toggle">Research</a></li>
+                <li><a href="industry" class="dropdown-toggle">Industry</a></li>
+                <li><a href="education" class="dropdown-toggle">Education</a></li>
+                <li><a href="news">News</a></li>
+                <li><a href="events">Events</a></li>
               </ul> 
             </nav>
 

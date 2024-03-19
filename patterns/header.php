@@ -23,13 +23,13 @@
 
     <nav class="touch-menu-nav">
         <ul>
-            <li><a href="index.html">Home<i class="icon ph ph-caret-right"></i></a></li>
-            <li><a href="about.html">About<i class="icon ph ph-caret-right"></i></a></li>
+            <li><a href="index">Home<i class="icon ph ph-caret-right"></i></a></li>
+            <li><a href="about">About<i class="icon ph ph-caret-right"></i></a></li>
             <li class="accordion-item">
                 <button class="accordion-toggle">Research<i class="icon ph ph-caret-down"></i></button>
                 <ul class="accordion-content">
                     <li><h6>Information &amp; Resources</h6></li>
-                    <li><a href="research.html">Overview<i class="icon ph ph-caret-right"></i></a></li>
+                    <li><a href="research">Overview<i class="icon ph ph-caret-right"></i></a></li>
                     <li><a href="#">Our Approach<i class="icon ph ph-caret-right"></i></a></li>
                     <li><a href="#">Publications<i class="icon ph ph-caret-right"></i></a></li>
                     <li><h6>Research Areas</h6></li>
@@ -56,8 +56,8 @@
                 <li><a href="#">Something else<i class="icon ph ph-caret-right"></i></a></li>
             </ul>
         </li>
-        <li><a href="news.html">News<i class="icon ph ph-caret-right"></i></a></li>
-        <li><a href="events.html">Events<i class="icon ph ph-caret-right"></i></a></li>
+        <li><a href="news">News<i class="icon ph ph-caret-right"></i></a></li>
+        <li><a href="events">Events<i class="icon ph ph-caret-right"></i></a></li>
         </ul>
     </nav>
     </div>
@@ -139,12 +139,12 @@
           <div class="col-sm-min col-md-8 col-6">
             <nav class="main-nav">
               <ul>
-                <li><a href="about.html">About</a></li>
-                <li><a href="research.html" class="dropdown-toggle">Research</a></li>
-                <li><a href="industry.html" class="dropdown-toggle">Industry</a></li>
-                <li><a href="education.html" class="dropdown-toggle">Education</a></li>
-                <li><a href="news.html">News</a></li>
-                <li><a href="events.html">Events</a></li>
+                <li><a href="about">About</a></li>
+                <li><a href="research" class="dropdown-toggle">Research</a></li>
+                <li><a href="industry" class="dropdown-toggle">Industry</a></li>
+                <li><a href="education" class="dropdown-toggle">Education</a></li>
+                <li><a href="news">News</a></li>
+                <li><a href="events">Events</a></li>
               </ul> 
             </nav>
 

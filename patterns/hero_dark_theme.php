@@ -10,8 +10,8 @@
       <div class="center">
         <nav aria-label="Breadcrumb">
           <ol class="breadcrumb">
-            <li><a href="index.html">Homepage</a></li>
-            <li><a href="research.html">Research</a></li>
+            <li><a href="index">Homepage</a></li>
+            <li><a href="research">Research</a></li>
             <li>Mathematical and Statistical Foundations of Machine Learning</li>
           </ol>
         </nav>

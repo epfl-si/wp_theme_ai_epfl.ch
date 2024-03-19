@@ -1,9 +1,9 @@
 <?php
 
 if (! function_exists("render_news_item")) {
-    function render_news_item ($title, $paragraph_html, $read_more_html) {
+    function render_news_item ($link, $title, $paragraph_html, $read_more_html) {
         ?> 
-            <a class="news-item">
+            <a class="news-item" href="<?php echo($link); ?>">
     
                 <h5><?php echo($title); ?></h5>
                 
@@ -32,6 +32,7 @@ $post_title = $posts[0]->post_title;
 $post = array_shift($posts);
 if ($post) {
     render_news_item(
+        get_permalink($post),
         $post->post_title,
         get_the_excerpt($post),
         "<span>Read on epfl.ch</span>"

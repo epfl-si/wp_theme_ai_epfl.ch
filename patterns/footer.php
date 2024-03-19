@@ -43,22 +43,22 @@
 					<!-- wp:list -->
 					<ul class="unstyled-list">
 						<!-- wp:list-item -->
-						<li><a href="about.html">About</a></li>
+						<li><a href="about">About</a></li>
 						<!-- /wp:list-item -->
 						<!-- wp:list-item -->
-						<li><a href="research.html">Research</a></li>
+						<li><a href="research">Research</a></li>
 						<!-- /wp:list-item -->
 						<!-- wp:list-item -->
-						<li><a href="industry.html">Industry</a></li>
+						<li><a href="industry">Industry</a></li>
 						<!-- /wp:list-item -->
 						<!-- wp:list-item -->
-						<li><a href="education.html">Education</a></li>
+						<li><a href="education">Education</a></li>
 						<!-- /wp:list-item -->
 						<!-- wp:list-item -->
-						<li><a href="news.html">News</a></li>
+						<li><a href="news">News</a></li>
 						<!-- /wp:list-item -->
 						<!-- wp:list-item -->
-						<li><a href="event.html">Events</a></li>
+						<li><a href="event">Events</a></li>
 						<!-- /wp:list-item -->
 					</ul>
 					<!-- /wp:list -->

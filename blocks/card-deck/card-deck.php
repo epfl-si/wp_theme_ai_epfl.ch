@@ -43,21 +43,21 @@ render_event_item(
 );
 
 render_event_item(
-    "https://memento.epfl.ch/event/ai-center-seminar-series-prof-michael-bronstein/",
-    "/wp-content/uploads/2024/01/seminar_prof_michael_bronstein.jpg",
-    "AI Center Seminar Series - Prof. Michael Bronstein",
-    "01 Feb. 2024",
-    "15:30-17:00",
-    "EPFL, Lausanne",
-    "Visit epfl.ch"
-);
-
-render_event_item(
     "https://memento.epfl.ch/event/workshop-generative-neural-networks-with-applicati/",
     "/wp-content/uploads/2024/01/workshop_ullrich_koethe.jpg",
     "Workshop: Generative Neural Networks with Applications to Imaging",
     "23 Feb. 2024",
     "13:00-15:00",
+    "EPFL, Lausanne",
+    "Visit epfl.ch"
+);
+
+render_event_item(
+    "https://memento.epfl.ch/event/ai-center-seminar-series-prof-michael-bronstein/",
+    "/wp-content/uploads/2024/01/seminar_prof_michael_bronstein.jpg",
+    "AI Center Seminar Series - Prof. Michael Bronstein",
+    "01 Feb. 2024",
+    "15:30-17:00",
     "EPFL, Lausanne",
     "Visit epfl.ch"
 );

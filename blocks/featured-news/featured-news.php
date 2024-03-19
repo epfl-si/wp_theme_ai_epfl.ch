@@ -10,7 +10,9 @@ if (! function_exists("render_news_item")) {
                 <?php echo($paragraph_html); ?>
     
                 <div class="link-sm">
-                <?php echo($read_more_html); ?>
+                    <span>
+                        <?php echo($read_more_html); ?>
+                    </span>
                 </div>
             </a>
         <?php
@@ -35,7 +37,7 @@ if ($post) {
         get_permalink($post),
         $post->post_title,
         get_the_excerpt($post),
-        "<span>Read on epfl.ch</span>"
+        "Read on epfl.ch"
     );
 } else {
     ?>

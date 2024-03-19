@@ -1,9 +1,9 @@
 <?php
 
-function render_event_item ($image_url, $title, $date, $time, $location, $read_more_html) {
+function render_event_item ($link, $image_url, $title, $date, $time, $location, $read_more_html) {
     ?>
         <div class="col-sm-12 col-4">
-            <a class="event" href="#">
+            <a class="event" href="<?php echo($link); ?>">
                 <picture><img src="<?php echo($image_url); ?>" alt=""/></picture>
 
                 <div class="event-content">
@@ -33,28 +33,31 @@ function render_event_item ($image_url, $title, $date, $time, $location, $read_m
 }
 
 render_event_item(
-    "/wp-content/uploads/2024/01/placeholder-event-1.jpg",
-    "AMLD EPFL 2024",
-    "23-26 Mar. 2024",
-    "09:00-19:00",
-    "EPFL, Lausanne",
-    "Visit appliedmldays.org"
-);
-
-render_event_item(
-    "/wp-content/uploads/2024/01/placeholder-event-2.jpg",
-    "Industry Research Workshop: Machine Learning for Health Care and Life Sciences",
-    "23-06 Dec. 2024",
+    "https://memento.epfl.ch/event/5-days-amld-epfl-2024-join-us/",
+    "/wp-content/uploads/2024/01/amld.jpg",
+    "5 days AMLD EPFL 2024 - Join us!",
+    "13 Dec. 2023 > 22 Mar. 2024",
     "09:00-19:00",
     "EPFL, Lausanne",
     "Visit epfl.ch"
 );
 
 render_event_item(
-    "/wp-content/uploads/2024/01/placeholder-event-3.jpg",
-    "Python for Data Science and Machine Learning (EN) 2023",
-    "23-11 Dec. 2024",
-    "09:00-19:00",
+    "https://memento.epfl.ch/event/ai-center-seminar-series-prof-michael-bronstein/",
+    "/wp-content/uploads/2024/01/seminar_prof_michael_bronstein.jpg",
+    "AI Center Seminar Series - Prof. Michael Bronstein",
+    "01 Feb. 2024",
+    "15:30-17:00",
+    "EPFL, Lausanne",
+    "Visit epfl.ch"
+);
+
+render_event_item(
+    "https://memento.epfl.ch/event/workshop-generative-neural-networks-with-applicati/",
+    "/wp-content/uploads/2024/01/workshop_ullrich_koethe.jpg",
+    "Workshop: Generative Neural Networks with Applications to Imaging",
+    "23 Feb. 2024",
+    "13:00-15:00",
     "EPFL, Lausanne",
     "Visit epfl.ch"
 );

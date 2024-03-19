@@ -11,7 +11,7 @@
             <div class="row">
                 <div class="col-sm">
                     <div class="brand">
-                        <a class="logo" href="#"><span class="sr-only">EPFL AI Center</span></a>
+                        <a class="logo" href="home"><span class="sr-only">EPFL AI Center</span></a>
                     </div>
                 </div>
                 <div class="col-sm-min">
@@ -128,7 +128,7 @@
           <div class="col-sm col-md-4 col-6">
             <div class="logo-search">
               <div class="brand">
-                <a class="logo" href="#"><span class="sr-only">EPFL AI Center</span></a>
+                <a class="logo" href="home"><span class="sr-only">EPFL AI Center</span></a>
               </div>
 
 

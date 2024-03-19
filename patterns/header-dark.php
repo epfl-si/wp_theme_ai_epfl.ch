@@ -11,7 +11,7 @@
           <div class="col-sm col-md-4 col-6">
             <div class="logo-search">
               <div class="brand">
-                <a class="logo" href="index.html"><span class="sr-only">EPFL AI Center</span></a>
+                <a class="logo" href="home"><span class="sr-only">EPFL AI Center</span></a>
               </div>
 
 

@@ -45,7 +45,7 @@ $posts = $query->posts;
 $post_title = $posts[0]->post_title;
 
 
-for($i = 0; $i < 4; $i++) {
+for($i = 0; $i < 10; $i++) {
     $post = array_shift($posts);
     render_news(
         get_permalink($post),

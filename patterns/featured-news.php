@@ -6,10 +6,10 @@
  */
 
 
-function render_news_item_lg ($title, $image_html, $paragraph_html, $read_more_html) {
+function render_news_item_lg ($link, $title, $image_html, $paragraph_html, $read_more_html) {
     ?>
         <div class="col-sm-12 col-6">
-            <a class="news-item-lg">
+            <a class="news-item-lg" href="<?php echo($link); ?>">
 
                 <picture>
                 <?php echo($image_html); ?>
@@ -27,9 +27,9 @@ function render_news_item_lg ($title, $image_html, $paragraph_html, $read_more_h
         </div>
     <?php
 }
-function render_news_item ($title, $paragraph_html, $read_more_html) {
+function render_news_item ($link, $title, $paragraph_html, $read_more_html) {
     ?>
-        <a class="news-item">
+        <a class="news-item" href="<?php echo($link); ?>">
 
             <h5><?php echo($title); ?></h5>
 
@@ -62,24 +62,19 @@ function render_news_item ($title, $paragraph_html, $read_more_html) {
 
 ?>
 
-<div class="featured-news">
-    <div class="center">
-        <div class="section-header">
-            <h6>News</h6>
-            <a class="link" href="news">
-                <span>Read all news</span>
-            </a>
-        </div>
 
-        <div class="row">
+        
+
+
             <?php
                 $post = array_shift($posts);
                 if ($post) {
                     render_news_item_lg (
+                        "news",
                         $post->post_title,
                         get_the_post_thumbnail($post),
                         get_the_excerpt($post),
-                        "<span>Read on epfl.ch</span>"
+                        "<span>Read more</span>"
                     );
                 } else {
                     ?>
@@ -95,9 +90,10 @@ function render_news_item ($title, $paragraph_html, $read_more_html) {
                             $specific_excerpt_length = 15;
                             $post = array_shift($posts);
                             render_news_item(
+                                get_permalink($post),
                                 $post->post_title,
                                 get_the_excerpt($post),
-                                "<span>Read on epfl.ch</span>"
+                                "<span>Read article</span>"
                             );
                             ?>
 
@@ -114,9 +110,10 @@ function render_news_item ($title, $paragraph_html, $read_more_html) {
                             $specific_excerpt_length = 15;
                             $post = array_shift($posts);
                             render_news_item(
+                                get_permalink($post),
                                 $post->post_title,
                                 get_the_excerpt($post),
-                                "<span>Read on epfl.ch</span>"
+                                "<span>Read article</span>"
                             );
                             ?>
 
@@ -126,6 +123,5 @@ function render_news_item ($title, $paragraph_html, $read_more_html) {
                     
                 ?>
             </div>
-        </div>
-    </div>
-</div>
+
+

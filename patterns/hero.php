@@ -7,13 +7,11 @@
 
 function render_page_title ($title) {
   ?>        
-    <div class="hero">
         <div class="center">
             <div class="hero-content">
               <h1><?php echo($title); ?></h1>
             </div>
         </div>
-    </div>
   <?php
 }
 

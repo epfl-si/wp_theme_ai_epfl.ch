@@ -1,0 +1,6 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "theme-ai-center/render-post-title",
+  "render": "file:./render-post-title.php"
+}

@@ -6,7 +6,7 @@
  */
 ?>
 <!-- wp:group {{"layout":{"type":"flex","flexWrap":"nowrap"}} -->
-<div class="wp-block-group hero-home" style="background-image:url(/wp-content/themes/theme_ai_center/assets/hero-home.jpg">
+<div class="wp-block-group hero-home" style="background-image:url(/wp-content/themes/theme_ai_center/assets/hero-home.jpg)">
     <!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","orientation":"vertical"}} -->
     <div class="wp-block-group center">
         <!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","orientation":"vertical"}} -->
@@ -18,7 +18,7 @@
             <!-- /wp:heading -->
             
             <!-- wp:paragraph -->
-            <a class="link-lg" href="#"><span>Learn more about us</span></a>
+            <a class="link-lg" href="about"><span>Learn more about us</span></a>
             <!-- /wp:paragraph -->
            
         </div>

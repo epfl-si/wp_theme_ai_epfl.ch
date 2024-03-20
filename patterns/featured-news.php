@@ -93,7 +93,7 @@ function render_news_item ($link, $title, $paragraph_html, $read_more_html) {
                                 get_permalink($post),
                                 $post->post_title,
                                 get_the_excerpt($post),
-                                "<span>Read article</span>"
+                                "<span>Read more</span>"
                             );
                             ?>
 

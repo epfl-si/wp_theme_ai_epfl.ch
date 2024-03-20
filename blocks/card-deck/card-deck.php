@@ -35,7 +35,7 @@ function render_event_item ($link, $image_url, $title, $date, $time, $location, 
 render_event_item(
     "https://memento.epfl.ch/event/5-days-amld-epfl-2024-join-us/",
     "/wp-content/uploads/2024/01/amld.jpg",
-    "5 days AMLD EPFL 2024 - Join us!",
+    "AMLD EPFL 2024 - Join us!",
     "23-26 Mar. 2024",
     "09:00-19:00",
     "EPFL, Lausanne",

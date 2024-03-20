@@ -10,7 +10,7 @@
     <div class="center">
         <div class="section-header">
             <h6>Events</h6>
-            <a class="wp-block-group link">
+            <a class="link" href="events">
                 <span>See all events</span>
             </a>
         </div>

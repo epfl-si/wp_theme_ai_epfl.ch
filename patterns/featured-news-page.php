@@ -5,7 +5,7 @@
  * Categories: featured, theme_ai_center/ai-center
  */
 
-function render_news ($link, $title, $image_html, $paragraph_html, $read_more_html) {
+function render_news ($link, $date, $title, $image_html, $paragraph_html, $read_more_html) {
 ?>
     <a href="<?php echo($link); ?>" class="news">
         <div class="row">
@@ -19,7 +19,7 @@ function render_news ($link, $title, $image_html, $paragraph_html, $read_more_ht
                 <div class="news-content">
                     <header>
                         <h3 class="h3"><?php echo($title); ?></h3>
-                        <span class="h3 red">14 Nov. 2023</span>
+                        <span class="h3 red"><?php echo($date); ?></span>
                     </header>
 
                     <p><?php echo($paragraph_html); ?></p>
@@ -45,10 +45,11 @@ $posts = $query->posts;
 $post_title = $posts[0]->post_title;
 
 
-for($i = 0; $i < 10; $i++) {
+for($i = 0; $i < 13; $i++) {
     $post = array_shift($posts);
     render_news(
         get_permalink($post),
+        get_the_date('j F, Y', $post),
         $post->post_title,
         get_the_post_thumbnail($post),
         get_the_excerpt($post),

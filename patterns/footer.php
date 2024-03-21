@@ -6,7 +6,7 @@
  */
 ?>
 <!-- wp:group {"align":"wide","style":{"layout":{"type":"flex","orientation":"vertical","justifyContent":"center"}} -->
-<div class="wp-block-group site-footer">
+<div class="wp-block-group site-footer dark-theme">
 	<!-- wp:group {"align":"wide","style":{"spacing":{"blockGap":"0"}},"layout":{"orientation":"vertical","justifyContent":"center"}} -->
 	<div class="wp-block-group center">
 	<!-- //////////FIRST FOOTER PART\\\\\\\\\\ -->
@@ -15,7 +15,7 @@
 			<!-- wp:group -->
 			<div class="wp-block-group col-sm-12 col-6">
 			<!-- //////////LOGO\\\\\\\\\\ -->
-				<a class="epfl-logo" href="www.epfl.ch"><span class="sr-only">EPFL</span></a>
+				<a class="logo" href="www.epfl.ch"><span class="sr-only">EPFL</span></a>
 			</div>
 			<!-- /wp:group -->
 
@@ -49,7 +49,7 @@
 						<li><a href="research">Research</a></li>
 						<!-- /wp:list-item -->
 						<!-- wp:list-item -->
-						<li><a href="industry">Industry</a></li>
+						<li><a href="innovation">Innovation</a></li>
 						<!-- /wp:list-item -->
 						<!-- wp:list-item -->
 						<li><a href="education">Education</a></li>

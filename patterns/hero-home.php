@@ -13,8 +13,8 @@
         <div class="wp-block-group hero-content">
            
             <!-- wp:heading {"level":1} -->
-            <h1>Exploring AI to Advance Research,<br> 
-            Industry, and Education</h1>
+            <h1>Exploring AI to advance research,<br> 
+            industry, and education</h1>
             <!-- /wp:heading -->
             
             <!-- wp:paragraph -->

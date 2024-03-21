@@ -39,7 +39,7 @@
                 </ul>
             </li>
             <li class="accordion-item">
-            <button class="accordion-toggle">Industry<i class="icon ph ph-caret-down"></i></button>
+            <button class="accordion-toggle">Innovation<i class="icon ph ph-caret-down"></i></button>
             <ul class="accordion-content">
                 <li><h6>Information &amp; Resources</h6></li>
                 <li><a href="#">Overview<i class="icon ph ph-caret-right"></i></a></li>
@@ -141,7 +141,7 @@
               <ul>
                 <li><a href="about">About</a></li>
                 <li><a href="research" class="dropdown-toggle">Research</a></li>
-                <li><a href="industry" class="dropdown-toggle">Industry</a></li>
+                <li><a href="innovation" class="dropdown-toggle">Innovation</a></li>
                 <li><a href="education" class="dropdown-toggle">Education</a></li>
                 <li><a href="news">News</a></li>
                 <li><a href="events">Events</a></li>

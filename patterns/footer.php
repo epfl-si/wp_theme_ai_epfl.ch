@@ -5,147 +5,70 @@
  * Categories: footer, theme_ai_center/ai-center
  */
 ?>
-<!-- wp:group {"align":"wide","style":{"layout":{"type":"flex","orientation":"vertical","justifyContent":"center"}} -->
-<div class="wp-block-group site-footer dark-theme">
-	<!-- wp:group {"align":"wide","style":{"spacing":{"blockGap":"0"}},"layout":{"orientation":"vertical","justifyContent":"center"}} -->
-	<div class="wp-block-group center">
-	<!-- //////////FIRST FOOTER PART\\\\\\\\\\ -->
-		<!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap"}} -->
-		<div class="wp-block-group row top">
-			<!-- wp:group -->
-			<div class="wp-block-group col-sm-12 col-6">
-			<!-- //////////LOGO\\\\\\\\\\ -->
+
+<div class="site-footer dark-theme" role="contentinfo">
+	<div class="center">
+		<div class="row top">
+			<div class="col-sm-12 col-6">
 				<a class="logo" href="www.epfl.ch"><span class="sr-only">EPFL</span></a>
 			</div>
-			<!-- /wp:group -->
 
-			<!-- wp:group -->
-			<div class="wp-block-group col-sm-6 col-2">
-			<!-- //////////FOOTER CONTACT\\\\\\\\\\ -->
-				<!-- wp:group {"layout":{"type":"flex"}} -->
-				<div class="wp-block-group footer-contact">
-					<!-- wp:paragraph -->
+			<div class="col-sm-6 col-2">
+				<div class="footer-contact">
 					<p>EPFL AI Center<br>
 					CH-1015 Lausanne
 					</p>
-					<!-- /wp:paragraph -->
 					<a href="mailto:epflai@epfl.ch">epflai@epfl.ch</a>
 				</div>
-				<!-- /wp:group -->
 			</div>
-			<!-- /wp:group -->
 
-			<!-- wp:group -->
-			<div class="wp-block-group col-sm-6 col-2 hide-sm">
-			<!-- //////////FOOTER NAV\\\\\\\\\\ -->
-				<!-- wp:group {"tagName": "nav"} --> 
-                <nav class="wp-block-group footer-nav">
-					<!-- wp:list -->
+			<div class="col-sm-6 col-2 hide-sm">
+                <nav class="footer-nav">
 					<ul class="unstyled-list">
-						<!-- wp:list-item -->
 						<li><a href="about">About</a></li>
-						<!-- /wp:list-item -->
-						<!-- wp:list-item -->
 						<li><a href="research">Research</a></li>
-						<!-- /wp:list-item -->
-						<!-- wp:list-item -->
 						<li><a href="innovation">Innovation</a></li>
-						<!-- /wp:list-item -->
-						<!-- wp:list-item -->
 						<li><a href="education">Education</a></li>
-						<!-- /wp:list-item -->
-						<!-- wp:list-item -->
 						<li><a href="news">News</a></li>
-						<!-- /wp:list-item -->
-						<!-- wp:list-item -->
 						<li><a href="event">Events</a></li>
-						<!-- /wp:list-item -->
 					</ul>
-					<!-- /wp:list -->
 				</nav>
-                <!-- /wp:group --> 
 			</div>
-			<!-- /wp:group -->
 
-			<!-- wp:group -->
-			<div class="wp-block-group col-sm-6 col-2">
-			<!-- //////////FOOTER SOCIALS\\\\\\\\\\ -->
-				<!-- wp:group {"tagName": "nav"} --> 
-				<nav class="wp-block-group footer-socials">
-					<!-- wp:list -->
+			<div class="col-sm-6 col-2">
+				<nav class="footer-socials">
 					<ul class="unstyled-list">					
-						<!-- wp:list-item -->
 						<li><a href="https://www.linkedin.com/company/epfl-ai-center/">LinkedIn</a></li>
-						<!-- /wp:list-item -->
-						
-						<!-- wp:list-item -->
 						<li><a href="https://mastodon.social/@EPFL_AI_Center">Mastodon</a></li>
-						<!-- /wp:list-item -->
-						
-						<!-- wp:list-item -->
 						<li><a href="https://twitter.com/EPFL_AI_Center">X / Twitter</a></li>
-						<!-- /wp:list-item -->
 					</ul>
-					<!-- /wp:list -->
 				</nav>
-				<!-- /wp:group --> 
 			</div>
-			<!-- /wp:group -->
 		</div>
-		<!-- /wp:group -->
 	</div>
-	<!-- /wp:group -->
-	<!-- wp:separator -->
-	<hr class="wp-block-separator has-alpha-channel-opacity"/>
-	<!-- /wp:separator -->
 
-	<!-- wp:group {"align":"wide","style":{"spacing":{"blockGap":"0"}},"layout":{"orientation":"vertical","justifyContent":"center"}} -->
-	<div class="wp-block-group center">
-	<!-- //////////SECOND FOOTER PART\\\\\\\\\\ -->
-		<!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap"}} -->
-		<div class="wp-block-group row">
-			<!-- wp:group -->
-			<div class="wp-block-group col-sm-12 col-6">
-			<!-- //////////LEGAL LINKS\\\\\\\\\\ -->
-				<!-- wp:group -->
-				<div class="wp-block-group legal-links">
-					<!-- wp:list -->
+	<hr>
+
+	<div class="center">
+		<div class="row">
+			<div class="col-sm-12 col-6">
+				<div class="legal-links">
 					<ul class="unstyled-h-list">
-						<!-- wp:list-item -->
 						<li><a href="https://www.epfl.ch/about/overview/regulations-and-guidelines/disclaimer/">Accessibilty</a></li>
-						<!-- /wp:list-item -->
-						
-						<!-- wp:list-item -->
 						<li><a href="https://www.epfl.ch/about/overview/regulations-and-guidelines/disclaimer/">Disclaimer</a></li>
-						<!-- /wp:list-item -->
-						
-						<!-- wp:list-item -->
 						<li><a href="https://www.epfl.ch/about/presidency/presidents-team/legal-affairs/epfl-privacy-policy/">Privacy Policy</a></li>
-						<!-- /wp:list-item -->
 					</ul>
-					<!-- /wp:list -->
 				</div>
-				<!-- /wp:group -->
 			</div>
-			<!-- /wp:group -->
-		
-			<!-- wp:group -->
-			<div class="wp-block-group col-sm-12 col-6">
-			<!-- //////////COPYRIGHT\\\\\\\\\\ -->
-				<!-- wp:group -->
-				<div class="wp-block-group copyright">
-					<!-- wp:paragraph -->
+
+			<div class="col-sm-12 col-6">
+				<div class="copyright">
 					<p>© 2024 EPFL, all rights reserved</p>
-					<!-- /wp:paragraph -->
 				</div>
-				<!-- /wp:group -->
 			</div>
-			<!-- /wp:group -->
 		</div>
-		<!-- /wp:group -->
 	</div>
-	<!-- /wp:group -->
 </div>
-<!-- /wp:group -->
+
 
 

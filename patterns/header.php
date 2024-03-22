@@ -134,7 +134,7 @@
           <div class="col-sm col-md-4 col-6">
             <div class="logo-search">
               <div class="brand">
-                <a class="logo" href="index.html"><span class="sr-only">EPFL AI Center</span></a>
+                <a class="logo" href="home"><span class="sr-only">EPFL AI Center</span></a>
               </div>
 
 
@@ -144,12 +144,13 @@
           <div class="col-sm-min col-md-8 col-6">
             <nav class="main-nav">
               <ul>
-                <li><a href="about.html">About</a></li>
-                <li><button class="dropdown-toggle" id="researchButton">Research <i class="ph ph-caret-down"></i></button></li>
-                <li><a href="#" class="dropdown-toggle">Industry <i class="ph ph-caret-down"></i></a></li>
-                <li><a href="#" class="dropdown-toggle">Education <i class="ph ph-caret-down"></i></a></li>
-                <li><a href="news.html">News</a></li>
-                <li><a href="events.html">Events</a></li>
+                <li><a href="about">About</a></li>
+                <li><a href="research">Research</a></li>
+                <li><a href="innovation">Innovation</a></li>
+                <li><a href="education">Education</a></li>
+                <li><a href="research">Research</a></li>
+                <li><a href="news">News</a></li>
+                <li><a href="events">Events</a></li>
               </ul> 
             </nav>
 

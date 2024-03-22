@@ -21,7 +21,7 @@ $background_education = "style='background-image: url(/wp-content/uploads/2024/0
 $background_innovation = "style='background-image: url(/wp-content/uploads/2024/03/image_8.png); background-position: center center; background-repeat: no-repeat; background-size: cover; '";
 $background_about = "style='background-image: url(/wp-content/uploads/2024/03/image_2.png); background-position: center center; background-repeat: no-repeat; background-size: cover; '";
 $background_research = "style='background-image: url(/wp-content/uploads/2024/03/image_10.png); background-position: center center; background-repeat: no-repeat; background-size: cover; '";
-$background_news = "style='background-image: url(/wp-content/uploads/2024/03/image_4.png); background-position: center center; background-repeat: no-repeat; background-size: cover; '";
+$background_news = "style='background-image: url(/wp-content/uploads/2024/03/image_5.png); background-position: center center; background-repeat: no-repeat; background-size: cover; '";
 $background_events = "style='background-image: url(/wp-content/uploads/2024/03/image_7.png); background-position: center center; background-repeat: no-repeat; background-size: cover; '";
 
 

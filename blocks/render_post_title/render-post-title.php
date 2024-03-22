@@ -4,7 +4,7 @@ if (! function_exists("render-post-title")) {
     function render_post_title ($title) {
         ?> 
             <li>
-                <?php echo($title); ?>
+                <!-- wp:post-title /-->
             </li>
 
         <?php

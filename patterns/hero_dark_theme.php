@@ -12,7 +12,6 @@
           <ol class="breadcrumb">
             <li><a href="home">Homepage</a></li>
             <li><a href="news">News</a></li>
-            <!-- wp:theme-ai-center/render-post-title /-->
           </ol>
         </nav>
 

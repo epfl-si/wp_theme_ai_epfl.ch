@@ -74,3 +74,9 @@ function copyToClipboard() {
 }
 add_action( 'wp_head', 'copyToClipboard' );
 
+function load_favicon(){
+?>
+<link rel="icon" href="/wp-content/uploads/2024/03/favicon.ico" sizes="any">
+<?php
+};
+add_action('wp_head', 'load_favicon');

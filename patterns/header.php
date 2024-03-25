@@ -148,7 +148,6 @@
                 <li><a href="research">Research</a></li>
                 <li><a href="innovation">Innovation</a></li>
                 <li><a href="education">Education</a></li>
-                <li><a href="research">Research</a></li>
                 <li><a href="news">News</a></li>
                 <li><a href="events">Events</a></li>
               </ul> 

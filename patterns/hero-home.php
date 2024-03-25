@@ -14,7 +14,7 @@
            
             <!-- wp:heading {"level":1} -->
             <h1>Exploring AI to advance<br> research,<br> 
-            industry, and education</h1>
+            innovation, and education</h1>
             <!-- /wp:heading -->
             
             <!-- wp:paragraph -->

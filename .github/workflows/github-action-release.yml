@@ -19,7 +19,7 @@ jobs:
       - name: Create Zip
         run: |
           mkdir -p dist/theme_ai_center
-          mv assets blocks parts patterns templates README.md *.php *.css theme.json dist/theme_ai_center
+          mv assets blocks patterns templates README.md *.php *.css theme.json dist/theme_ai_center
           cd dist
           zip -r theme_ai_center.zip theme_ai_center
           cp theme_ai_center.zip theme_ai_center_${{ github.ref_name }}.zip

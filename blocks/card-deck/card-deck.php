@@ -33,21 +33,21 @@ function render_event_item ($link, $image_url, $title, $date, $time, $location, 
 }
 
 render_event_item(
-    "https://memento.epfl.ch/event/5-days-amld-epfl-2024-join-us/",
-    "/wp-content/uploads/2024/01/amld.jpg",
-    "AMLD EPFL 2024 - Join us!",
-    "23-26 Mar. 2024",
-    "09:00-19:00",
+    "https://memento.epfl.ch/event/lemanic-life-sciences-hackathon/",
+    "/wp-content/uploads/2024/03/lemanic-life-science-hackathon.jpg",
+    "Lemanic Life Sciences Hackathon",
+    "26-27 Avr. 2024",
+    "09:00-21:00",
     "EPFL, Lausanne",
     "Visit epfl.ch"
 );
 
 render_event_item(
-    "https://memento.epfl.ch/event/workshop-generative-neural-networks-with-applicati/",
-    "/wp-content/uploads/2024/01/workshop_ullrich_koethe.jpg",
-    "Workshop: Generative Neural Networks with Applications to Imaging",
-    "23 Feb. 2024",
-    "13:00-15:00",
+    "https://memento.epfl.ch/event/5-days-amld-epfl-2024-join-us/",
+    "/wp-content/uploads/2024/01/amld.jpg",
+    "AMLD EPFL 2024 - Join us!",
+    "23-26 Mar. 2024",
+    "09:00-19:00",
     "EPFL, Lausanne",
     "Visit epfl.ch"
 );

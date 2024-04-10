@@ -1,7 +1,7 @@
 <?php
 /**
- * Title: CardDeck
- * Slug: theme_ai_center/cardDeck
+ * Title: events
+ * Slug: theme_ai_center/events
  * Categories: featured, theme_ai_center/ai-center
  */
 ?>
@@ -16,7 +16,7 @@
         </div>
 
         <div class="row">
-            <!-- wp:theme-ai-center/card-deck /-->
+            <!-- wp:theme-ai-center/events /-->
         </div>
     </div>
 </div>

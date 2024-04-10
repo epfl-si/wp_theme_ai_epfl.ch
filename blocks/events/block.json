@@ -1,6 +1,6 @@
 {
   "$schema": "https://schemas.wp.org/trunk/block.json",
   "apiVersion": 3,
-  "name": "theme-ai-center/card-deck",
-  "render": "file:./card-deck.php"
+  "name": "theme-ai-center/events",
+  "render": "file:./events.php"
 }

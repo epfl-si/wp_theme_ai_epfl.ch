@@ -50,18 +50,12 @@ function render_news_item ($link, $title, $paragraph_html, $read_more_html) {
 
 <?php 
 
-    $args = array(
-        'posts_per_page' => -1,
+    $query = new WP_Query( array(
+        'posts_per_page' => 7,
         'orderby'   => array (
             'date' =>'DESC'
         )
-    );
-
-    $query = new WP_Query( $args );
-
-    $posts = $query->posts;
-
-    $post_title = $posts[0]->post_title;
+    ));
 
 ?>
 
@@ -70,7 +64,8 @@ function render_news_item ($link, $title, $paragraph_html, $read_more_html) {
 
 
             <?php
-                $post = array_shift($posts);
+
+               $post = array_shift($query->posts);
                 if ($post) {
                     render_news_item_lg (
                         "news",
@@ -90,7 +85,7 @@ function render_news_item ($link, $title, $paragraph_html, $read_more_html) {
               <div class="col-sm-12 col-3">
                   <?php
                       for($i = 0; $i < 3; $i++) {
-                              $post = array_shift($posts);
+                              $post = array_shift($query->posts);
                               render_news_item(
                                   get_permalink($post),
                                   $post->post_title,

@@ -27,14 +27,12 @@ function render_post_item ($link, $title, $paragraph_html, $read_more_html) {
 }
 
 
-$args = array(
-    'posts_per_page' => -1,
+$query = new WP_Query( array(
+    'posts_per_page' => 3,
     'orderby'   => array (
         'date' =>'DESC'
     )
-);
-
-$query = new WP_Query( $args );
+));
 $posts = $query->posts;
 
 

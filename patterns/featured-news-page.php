@@ -32,19 +32,13 @@ function render_news ($link, $date, $title, $image_html, $paragraph_html, $read_
 <?php
 }
 
-
-$args = array(
-    'posts_per_page' => -1,
+$query = new WP_Query( array(
+    'posts_per_page' => 13,
     'orderby'   => array (
-    'date' =>'DESC'
-)
-);
+        'date' =>'DESC'
+    )));
 
-$query = new WP_Query( $args );
-$posts = $query->posts;
-
-for($i = 0; $i < 13; $i++) {
-    $post = array_shift($posts);
+while($post = array_shift($query->posts)) {
     render_news(
         get_permalink($post),
         get_the_date('j F, Y', $post),
@@ -53,7 +47,4 @@ for($i = 0; $i < 13; $i++) {
         get_the_excerpt($post),
         "Read more"
     );
-
 }
-
-

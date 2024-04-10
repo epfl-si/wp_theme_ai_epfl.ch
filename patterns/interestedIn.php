@@ -36,7 +36,6 @@ $args = array(
 
 $query = new WP_Query( $args );
 $posts = $query->posts;
-$post_title = $posts[0]->post_title;
 
 
 

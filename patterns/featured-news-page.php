@@ -42,8 +42,6 @@ $args = array(
 
 $query = new WP_Query( $args );
 $posts = $query->posts;
-$post_title = $posts[0]->post_title;
-
 
 for($i = 0; $i < 13; $i++) {
     $post = array_shift($posts);

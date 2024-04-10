@@ -28,6 +28,8 @@ function render_news_item_lg ($link, $title, $image_html, $paragraph_html, $read
     <?php
 }
 function render_news_item ($link, $title, $paragraph_html, $read_more_html) {
+    global $specific_excerpt_length;
+    $specific_excerpt_length = 15;
     ?>
         <a class="news-item" href="<?php echo($link); ?>">
 
@@ -40,6 +42,7 @@ function render_news_item ($link, $title, $paragraph_html, $read_more_html) {
             </div>
         </a>
     <?php
+    unset($specific_excerpt_length);
 }
 
 ?>
@@ -86,8 +89,6 @@ function render_news_item ($link, $title, $paragraph_html, $read_more_html) {
             <div class="col-sm-12 col-3">
                 <?php
                     for($i = 0; $i < 3; $i++) {
-                            global $specific_excerpt_length;
-                            $specific_excerpt_length = 15;
                             $post = array_shift($posts);
                             render_news_item(
                                 get_permalink($post),
@@ -98,7 +99,6 @@ function render_news_item ($link, $title, $paragraph_html, $read_more_html) {
                             ?>
 
                             <?php
-                            unset($specific_excerpt_length);
                     }
                     
                 ?>
@@ -106,8 +106,6 @@ function render_news_item ($link, $title, $paragraph_html, $read_more_html) {
             <div class="col-sm-12 col-3">
                 <?php
                     for($i = 0; $i < 3; $i++) {
-                            global $specific_excerpt_length;
-                            $specific_excerpt_length = 15;
                             $post = array_shift($posts);
                             render_news_item(
                                 get_permalink($post),
@@ -118,7 +116,6 @@ function render_news_item ($link, $title, $paragraph_html, $read_more_html) {
                             ?>
 
                             <?php
-                            unset($specific_excerpt_length);
                     }
                     
                 ?>

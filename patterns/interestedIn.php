@@ -17,7 +17,7 @@ function render_post_item ($link, $title, $paragraph_html, $read_more_html) {
             <p><?php echo($paragraph_html) ?></p>
             <div class="link-sm">
                 <span>
-                    <?php echo($read_more_hmtl) ?>
+                    <?php echo($read_more_html) ?>
                 </span>
                 <i class="icon ph ph-arrow-up-right"></i>
             </div>

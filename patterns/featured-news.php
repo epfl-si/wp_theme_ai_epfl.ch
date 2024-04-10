@@ -85,40 +85,19 @@ function render_news_item ($link, $title, $paragraph_html, $read_more_html) {
                     <?php
                 }
             ?>
-            
-            <div class="col-sm-12 col-3">
-                <?php
-                    for($i = 0; $i < 3; $i++) {
-                            $post = array_shift($posts);
-                            render_news_item(
-                                get_permalink($post),
-                                $post->post_title,
-                                get_the_excerpt($post),
-                                "<span>Read more</span>"
-                            );
-                            ?>
 
-                            <?php
-                    }
-                    
-                ?>
-            </div>
-            <div class="col-sm-12 col-3">
-                <?php
-                    for($i = 0; $i < 3; $i++) {
-                            $post = array_shift($posts);
-                            render_news_item(
-                                get_permalink($post),
-                                $post->post_title,
-                                get_the_excerpt($post),
-                                "<span>Read more</span>"
-                            );
-                            ?>
-
-                            <?php
-                    }
-                    
-                ?>
-            </div>
-
-
+            <?php foreach([0, 1] as $unused_col) { ?>
+              <div class="col-sm-12 col-3">
+                  <?php
+                      for($i = 0; $i < 3; $i++) {
+                              $post = array_shift($posts);
+                              render_news_item(
+                                  get_permalink($post),
+                                  $post->post_title,
+                                  get_the_excerpt($post),
+                                  "<span>Read more</span>"
+                              );
+                      }
+                  ?>
+              </div>
+            <?php } ?>

@@ -5,24 +5,24 @@
  * Categories: featured, theme_ai_center/ai-center
  */
 
-function render_news ($link, $date, $title, $image_html, $paragraph_html, $read_more_html) {
+function render_news ($post, $read_more_html) {
 ?>
-    <a href="<?php echo($link); ?>" class="news">
+    <a href="<?php echo(get_permalink($post)); ?>" class="news">
         <div class="row">
             <div class="col-sm-12 col-5">
 
                 <picture>
-                <?php echo($image_html); ?>
+                <?php echo(get_the_post_thumbnail($post)); ?>
                 </picture>
             </div>
             <div class="col-sm-12 col-7">
                 <div class="news-content">
                     <header>
-                        <h3 class="h3"><?php echo($title); ?></h3>
-                        <span class="h3 red"><?php echo($date); ?></span>
+                        <h3 class="h3"><?php echo($post->post_title); ?></h3>
+                        <span class="h3 red"><?php echo(get_the_date('j F, Y', $post)); ?></span>
                     </header>
 
-                    <p><?php echo($paragraph_html); ?></p>
+                    <p><?php echo(get_the_excerpt($post)); ?></p>
 
                     <div class="link"><span><?php echo($read_more_html); ?></span></div>
                 </div>
@@ -39,12 +39,5 @@ $query = new WP_Query( array(
     )));
 
 while($post = array_shift($query->posts)) {
-    render_news(
-        get_permalink($post),
-        get_the_date('j F, Y', $post),
-        $post->post_title,
-        get_the_post_thumbnail($post),
-        get_the_excerpt($post),
-        "Read more"
-    );
+    render_news($post, "Read more");
 }

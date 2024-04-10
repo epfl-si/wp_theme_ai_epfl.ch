@@ -6,15 +6,15 @@
  */
 
 
-function render_post_item ($link, $title, $paragraph_html, $read_more_html) {
+function render_post_item ($post, $read_more_html) {
 ?>
-    <a class="card" href="<?php echo($link); ?>">
+    <a class="card" href="<?php echo(get_permalink($post)); ?>">
 
         <header>
-            <h4><?php echo($title) ?><br>
+            <h4><?php echo($post->post_title); ?><br>
         </header>
         <div class="card-content">
-            <p><?php echo($paragraph_html) ?></p>
+            <p><?php echo(get_the_excerpt($post)); ?></p>
             <div class="link-sm">
                 <span>
                     <?php echo($read_more_html) ?>
@@ -33,23 +33,9 @@ $query = new WP_Query( array(
         'date' =>'DESC'
     )
 ));
-$posts = $query->posts;
-
-
-
     
-    for($i = 0; $i < 3; $i++) {
-        ?>
-        <div class="col-sm-12 col-3">
-        <?php
-        $post = array_shift($posts);
-        render_post_item(
-            get_permalink($post),
-            $post->post_title,
-            get_the_excerpt($post),
-            "Read more"
-        );
-        ?>
-        </div>
-    <?php
-    }
+for($i = 0; $i < 3; $i++) {
+    ?><div class="col-sm-12 col-3"><?php
+    render_post_item(array_shift($query->posts), "Read more");
+    ?></div><?php
+}

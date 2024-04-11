@@ -1,63 +1,88 @@
 <?php
 
-function render_event_item ($link, $image_url, $title, $date, $time, $location, $read_more_html) {
+function render_event_item ($event) {
+    $date_range = format_event_times(
+        $event,
+        ["%j %M %y", "%j1–%j2 %M %y", "%j1 %M1 to %j2 %M2 %y",
+         "%j1 %M1 %y1 to %j2 %M2 %y2"]);
     ?>
         <div class="col-sm-12 col-4">
-            <a class="event" href="<?php echo($link); ?>">
-                <picture><img src="<?php echo($image_url); ?>" alt=""/></picture>
+            <a class="event" href="<?php echo(get_post_meta($event->ID, "event_url", true)); ?>">
+                <picture><img src="<?php echo(get_post_meta($event->ID, "visual_large_url", true)); ?>" alt=""/></picture>
 
                 <div class="event-content">
                     <header>
                         <h4>
-                            <?php echo($title); ?><br>
-                            <span class="event-date red"><?php echo($date); ?></span>
-                        </h4>    
-                        <ul class="event-time-location">
-                            <li class="event-time">
-                                <i class="ph ph-clock"></i>
-                                <span><?php echo($time); ?></span>
-                            </li>
-                            <li class="event-location">
-                                <i class="ph ph-map-pin"></i>
-                                <span><?php echo($location); ?></span>
-                            </li>
-                        </ul>
+                            <?php echo($event->post_title); ?><br>
+                            <span class="event-date red"><?php echo($date_range); ?></span>
+                        </h4>
+                        <?php maybe_render_event_time_and_location($event); ?>
                     </header>
                     <div class="wp-block-group link-sm">
-                        <span><?php echo($read_more_html); ?></span>
+                        <span>Visit epfl.ch</span>
                     </div>
                 </div>
             </a>
         </div>
-    <?php 
+    <?php
 }
 
-render_event_item(
-    "https://memento.epfl.ch/event/lemanic-life-sciences-hackathon/",
-    "/wp-content/uploads/2024/03/lemanic-life-science-hackathon.jpg",
-    "Lemanic Life Sciences Hackathon",
-    "26-27 Avr. 2024",
-    "09:00-21:00",
-    "EPFL, Lausanne",
-    "Visit epfl.ch"
-);
+function maybe_render_event_time_and_location ($event) {
+    $start_time = get_post_meta($event->ID, "event_start_time", true);
+    $end_time = get_post_meta($event->ID, "event_end_time", true);
+    if ($start_time and $end_time) {
+        if ($start_time == $end_time) {
+            $time = "$start_time";
+        } else {
+            $time = "$start_time – $end_time";
+        }
+    } elseif ($start_time) {
+        $time = $start_time;
+    } else {
+        $time = $end_time;  # #hailmarypass
+    }
 
-render_event_item(
-    "https://memento.epfl.ch/event/5-days-amld-epfl-2024-join-us/",
-    "/wp-content/uploads/2024/01/amld.jpg",
-    "AMLD EPFL 2024 - Join us!",
-    "23-26 Mar. 2024",
-    "09:00-19:00",
-    "EPFL, Lausanne",
-    "Visit epfl.ch"
-);
+    $location_url = get_post_meta($event->ID, "event_url_place_and_room", true);
+    if ($location_url and preg_match('|^https://plan.epfl.ch/|', $location_url)) {
+        $location = "EPFL, Lausanne";
+    } else {
+        $location = get_post_meta($event->ID, "event_place_and_room", true);
+    }
 
-render_event_item(
-    "https://memento.epfl.ch/event/ai-center-seminar-series-prof-michael-bronstein/",
-    "/wp-content/uploads/2024/01/seminar_prof_michael_bronstein.jpg",
-    "AI Center Seminar Series - Prof. Michael Bronstein",
-    "01 Feb. 2024",
-    "15:30-17:00",
-    "EPFL, Lausanne",
-    "Visit epfl.ch"
-);
+    if (! ($time || $location)) { return; }
+
+    ?><ul class="event-time-location"><?php
+    if ($time) {
+    ?>
+      <li class="event-time">
+          <i class="ph ph-clock"></i>
+          <span><?php echo($time); ?></span>
+      </li>
+    <?php
+    }
+
+    if ($location) {
+    ?>
+      <li class="event-location">
+        <i class="ph ph-map-pin"></i>
+        <span><?php echo($location); ?></span>
+      </li>
+    <?php
+    }
+                            
+    ?></ul><?php
+}
+
+$events_query = new WP_Query( array(
+    'post_type' => 'epfl-memento',
+    'posts_per_page' => 3,
+    'meta_key'  => 'api_id',
+    'orderby'   => array (
+        'meta_value_num' =>'DESC'
+    )
+));
+
+
+while($events_query->have_posts()) {
+    render_event_item($events_query->next_post());
+}

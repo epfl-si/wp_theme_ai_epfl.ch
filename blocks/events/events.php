@@ -5,10 +5,14 @@ function render_event_item ($event) {
         $event,
         ["%j %M %y", "%j1–%j2 %M %y", "%j1 %M1 to %j2 %M2 %y",
          "%j1 %M1 %y1 to %j2 %M2 %y2"]);
+    $photo = get_post_meta($event->ID, "visual_large_url", true);
+    if (! $photo) {
+        $photo = "https://memento.epfl.ch/static/img/default.jpg";
+    }
     ?>
         <div class="col-sm-12 col-4">
             <a class="event" href="<?php echo(get_post_meta($event->ID, "event_url", true)); ?>">
-                <picture><img src="<?php echo(get_post_meta($event->ID, "visual_large_url", true)); ?>" alt=""/></picture>
+                <picture><img src="<?php echo($photo); ?>" alt=""/></picture>
 
                 <div class="event-content">
                     <header>
@@ -69,7 +73,7 @@ function maybe_render_event_time_and_location ($event) {
       </li>
     <?php
     }
-                            
+
     ?></ul><?php
 }
 

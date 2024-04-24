@@ -80,9 +80,10 @@ function maybe_render_event_time_and_location ($event) {
 $events_query = new WP_Query( array(
     'post_type' => 'epfl-memento',
     'posts_per_page' => 3,
-    'meta_key'  => 'api_id',
+    'meta_key'  => 'event_start_date',
+    'meta_type' => 'date',
     'orderby'   => array (
-        'meta_value_num' =>'DESC'
+        'meta_value' =>'ASC'
     )
 ));
 
